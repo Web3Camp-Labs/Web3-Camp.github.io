@@ -21,8 +21,8 @@ function MyApp({ Component, pageProps }: IAppProps) {
   const getLayout = Component.getLayout ?? ((page: ReactNode) => page)
   return  <>
     <Head>
-      <title>web3-camp</title>
-      <meta name="description" content="web3 Camp" />
+      <title>Web3 Camp - The campus for web3 developers</title>
+      <meta name="description" content="Web3 Camp - The campus for web3 developers" />
       <link rel="icon" href="./favicon.ico" />
     </Head>
     {getLayout(<Component {...pageProps} />)}
