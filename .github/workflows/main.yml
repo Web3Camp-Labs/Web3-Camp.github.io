@@ -1,4 +1,4 @@
-name: GitHub Pages
+name: Publish to GitHub Pages
 
 on:
   push:
@@ -33,8 +33,9 @@ jobs:
 
       - run: yarn install --frozen-lockfile
       - run: yarn export
+      - run: echo "web3camp.us"  > ./out/CNAME
 
-      - name: Deploy
+      - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
