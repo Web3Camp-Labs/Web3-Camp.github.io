@@ -55,7 +55,7 @@ export default function  Home<NextPage>() {
 
           <Row>
               <Col md={4} xs={12}>
-                  <a href="https://web3-camp.github.io/ETH-Wallet-Generator/" target="_blank" rel="noreferrer">
+                  <a href="/ETH-Wallet-Generator/" target="_blank" rel="noreferrer">
                   <CardBox body>
                       <div className="firstTR">
                           <div className="iconbox eth">
@@ -71,7 +71,7 @@ export default function  Home<NextPage>() {
                   </a>
               </Col>
               <Col md={4} xs={12}>
-                  <a href="https://web3-camp.github.io/Polkadot-Wallet-Generator/" target="_blank" rel="noreferrer">
+                  <a href="/Polkadot-Wallet-Generator/" target="_blank" rel="noreferrer">
                       <CardBox body>
                           <div className="firstTR">
                               <div className="iconbox polkadot">
@@ -87,7 +87,7 @@ export default function  Home<NextPage>() {
                   </a>
               </Col>
               <Col md={4} xs={12}>
-                  <a href="https://web3-camp.github.io/batch-sender/index.html" target="_blank" rel="noreferrer">
+                  <a href="/batch-sender/index.html" target="_blank" rel="noreferrer">
                       <CardBox body>
                           <div className="firstTR">
                               <div className="iconbox token">
