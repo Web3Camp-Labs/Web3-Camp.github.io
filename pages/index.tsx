@@ -3,6 +3,7 @@ import type { NextPage } from 'next'
 import styled from "styled-components";
 import {Row, Col, Card} from 'react-bootstrap';
 import Layout from "../components/layout";
+import ListJson from '../public/json/list.json';
 
 const CardBox = styled(Card)`
   border:0;
@@ -17,7 +18,13 @@ const CardBox = styled(Card)`
     align-content: stretch;
   }
   .iconbox{
-    width: 50%;
+    width: 30%;
+    display: flex;
+    flex-shrink: 0;
+    img{
+      width: 100%;
+      align-self: center;
+    }
   }
    .middlebox{
      flex-grow: 1;
@@ -30,18 +37,6 @@ const CardBox = styled(Card)`
   }
   .content{
     opacity: 0.6;
-  }
-  .eth{
-    background: url("/assets/images/eth-diamond-black-white.jpeg") center no-repeat ;
-    background-size: 100%;
-  }
-  .polkadot{
-    background: url("/assets/images/polkadot.png") center no-repeat ;
-    background-size: 100%;
-  }
-  .token{
-    background: url("/assets/images/Logo67.png") center no-repeat ;
-    background-size: 100%;
   }
  
   .card{
@@ -60,58 +55,40 @@ const ColBox = styled(Col)`
     align-content: stretch;
   }
 `
+interface listObj{
+    name: string;
+    logo: string;
+    href: string;
+    description: string;
+}
 export default function  Home<NextPage>() {
+   const [list,setList] = useState<listObj[]>([])
+
+    useEffect(()=>{
+        setList(ListJson)
+    },[])
   return (
       <div>
           <Row>
-              <ColBox md={4} xs={12}>
-                  <a href="https://web3-camp.github.io/ETH-Wallet-Generator/" target="_blank" rel="noreferrer">
-                  <CardBox body>
-                      <div className="firstTR">
-                          <div className="iconbox eth">
-                              {/*<img src="/assets/images/eth-diamond-black-white.jpeg" alt=""/>*/}
-                          </div>
+              {
+                  list.map((item,index)=>(<ColBox md={4} xs={12} key={index}>
+                          <a href={item.href} target="_blank" rel="noreferrer">
+                              <CardBox body>
+                                  <div className="firstTR">
+                                      <div className="iconbox" >
+                                          <img src={item.logo} alt=""/>
+                                      </div>
+                                      <div className="middlebox">
+                                          <div className="title">{item.name}</div>
+                                          <div className="content">{item.description}</div>
+                                      </div>
+                                  </div>
+                              </CardBox>
+                          </a>
+                      </ColBox>
 
-                          <div className="middlebox">
-                              <div className="title">ETH Wallet Generator</div>
-                              <div className="content">Generate ETH Wallet Address in pure webpage from scratch!</div>
-                          </div>
-                      </div>
-                  </CardBox>
-                  </a>
-              </ColBox>
-              <ColBox md={4} xs={12}>
-                  <a href="https://web3-camp.github.io/Polkadot-Wallet-Generator/" target="_blank" rel="noreferrer">
-                      <CardBox body>
-                          <div className="firstTR">
-                              <div className="iconbox polkadot">
-                                  {/*<img src="/assets/images/polkadot-dot1469.jpeg" alt=""/>*/}
-                              </div>
-
-                              <div className="middlebox">
-                                  <div className="title">Polkadot Wallet Generator</div>
-                                  <div className="content">Generate Polkadot Wallet Address with @Polkadot/api !</div>
-                              </div>
-                          </div>
-                      </CardBox>
-                  </a>
-              </ColBox>
-              <ColBox md={4} xs={12}>
-                  <a href="https://web3-camp.github.io/batch-sender/index.html" target="_blank" rel="noreferrer">
-                      <CardBox body>
-                          <div className="firstTR">
-                              <div className="iconbox token">
-                                  {/*<img src="/assets/images/polkadot-dot1469.jpeg" alt=""/>*/}
-                              </div>
-
-                              <div className="middlebox">
-                                  <div className="title">Token Batch Sender</div>
-                                  <div className="content">It supports sending ERC20 tokens and ETH!</div>
-                              </div>
-                          </div>
-                      </CardBox>
-                  </a>
-              </ColBox>
+                  ))
+              }
           </Row>
       </div>
   )
