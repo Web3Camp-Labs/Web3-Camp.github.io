@@ -1,16 +1,16 @@
 @font-face {
   font-family: "din_regular";
-  src: url('./fonts/din_regular.otf');
+  src: url('https://web3camp.us/din_regular.otf');
 }
 
 @font-face {
   font-family: "din_medium";
-  src: url('./fonts/din_medium.otf');
+  src: url('https://web3camp.us/din_medium.otf');
 }
 
 @font-face {
   font-family: "din_bold";
-  src: url('./fonts/din_bold.otf');
+  src: url('https://web3camp.us/din_bold.otf');
 }
 
 html,
