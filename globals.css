@@ -68,3 +68,8 @@ ul,li{
     box-shadow: 0 0 5px #ccc;
     padding:45px 0;
 }
+.headerTxt{
+    font-family: "din_bold";
+    font-size: 32px;
+    text-transform: uppercase;
+}
