@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "din_regular";
+  src: url('https://web3camp.us/din_regular.otf');
+}
+
+@font-face {
+  font-family: "din_medium";
+  src: url('https://web3camp.us/din_medium.otf');
+}
+
+@font-face {
+  font-family: "din_bold";
+  src: url('https://web3camp.us/din_bold.otf');
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  color: #666666;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "din_regular";
+}
+
+a{
+  text-decoration: none;
+  color: #666666;
+}
+a:hover{
+    color: purple;
+  }
+
+ul,li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.btn-flat {
+  background-color: purple;
+  color: white;
+}
+.btn-flat:focus{
+   outline: none;
+ }
+.btn-flat:hover{
+   background: #000;
+   color: white;
+ }
+.spinner-primary{
+  color: purple;
+}
+.form-check-input:checked {
+  background-color: purple;
+  border-color: purple;
+}
+.form-check-input:focus{
+   outline: none;
+   border-color: #ccc;
+ }
