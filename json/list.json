@@ -1,0 +1,26 @@
+[
+  {
+    "href": "https://web3-camp.github.io/ETH-Wallet-Generator/",
+    "logo": "/assets/images/eth-diamond-black-white.jpeg",
+    "name": "ETH Wallet Generator",
+    "description": "Generate ETH Wallet Address in pure webpage from scratch!"
+  },
+  {
+    "href": "https://web3-camp.github.io/Polkadot-Wallet-Generator/",
+    "logo": "/assets/images/polkadot.png",
+    "name": "Polkadot Wallet Generator",
+    "description": "Generate Polkadot Wallet Address with @Polkadot/api !"
+  },
+  {
+    "href": "https://web3-camp.github.io/batch-sender/",
+    "logo": "/assets/images/Logo67.png",
+    "name": "Token Batch Sender",
+    "description": "It supports sending ERC20 tokens and ETH!"
+  },
+  {
+    "href": "https://web3camp.us/oneclick-dapp/",
+    "logo": "/assets/images/oneclick.png",
+    "name": "OneClick dApp",
+    "description": "OneClick dApp is a tool for smart contract developers to interactive with any smart contracts easily and quickly with one click!"
+  }
+]
