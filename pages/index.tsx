@@ -2,7 +2,6 @@ import React, {ReactNode, useEffect, useState, useRef, ChangeEvent, ReactElement
 import type { NextPage } from 'next'
 import styled from "styled-components";
 import {Row, Col, Card} from 'react-bootstrap';
-import { Wallet, Wallet2 } from 'react-bootstrap-icons';
 import Layout from "../components/layout";
 
 const CardBox = styled(Card)`
@@ -13,12 +12,10 @@ const CardBox = styled(Card)`
   cursor: pointer;
   margin-bottom: 20px;
   padding: 0!important;
-
   .firstTR{
     display: flex;
     align-content: stretch;
   }
-  
   .iconbox{
     width: 50%;
   }
@@ -46,16 +43,29 @@ const CardBox = styled(Card)`
     background: url("/assets/images/Logo67.png") center no-repeat ;
     background-size: 100%;
   }
+ 
+  .card{
+    display: flex;
+    
+  }
+  .card-body{
+    height: 100%;
+  }
 `
-
+const ColBox = styled(Col)`
+  display: flex;
+  align-content: stretch;
+  a{
+    display: flex;
+    align-content: stretch;
+  }
+`
 export default function  Home<NextPage>() {
-
   return (
       <div>
-
           <Row>
-              <Col md={4} xs={12}>
-                  <a href="/ETH-Wallet-Generator/" target="_blank" rel="noreferrer">
+              <ColBox md={4} xs={12}>
+                  <a href="https://web3-camp.github.io/ETH-Wallet-Generator/" target="_blank" rel="noreferrer">
                   <CardBox body>
                       <div className="firstTR">
                           <div className="iconbox eth">
@@ -69,9 +79,9 @@ export default function  Home<NextPage>() {
                       </div>
                   </CardBox>
                   </a>
-              </Col>
-              <Col md={4} xs={12}>
-                  <a href="/Polkadot-Wallet-Generator/" target="_blank" rel="noreferrer">
+              </ColBox>
+              <ColBox md={4} xs={12}>
+                  <a href="https://web3-camp.github.io/Polkadot-Wallet-Generator/" target="_blank" rel="noreferrer">
                       <CardBox body>
                           <div className="firstTR">
                               <div className="iconbox polkadot">
@@ -85,9 +95,9 @@ export default function  Home<NextPage>() {
                           </div>
                       </CardBox>
                   </a>
-              </Col>
-              <Col md={4} xs={12}>
-                  <a href="/batch-sender/index.html" target="_blank" rel="noreferrer">
+              </ColBox>
+              <ColBox md={4} xs={12}>
+                  <a href="https://web3-camp.github.io/batch-sender/index.html" target="_blank" rel="noreferrer">
                       <CardBox body>
                           <div className="firstTR">
                               <div className="iconbox token">
@@ -101,7 +111,7 @@ export default function  Home<NextPage>() {
                           </div>
                       </CardBox>
                   </a>
-              </Col>
+              </ColBox>
           </Row>
       </div>
   )
