@@ -1,26 +1,12 @@
 import React from "react";
-import styled from 'styled-components';
 import { Container, Row, Col } from 'react-bootstrap';
-import * as Icon from 'react-bootstrap-icons';
-
-
-const TopBox = styled.div`
- box-shadow: 0 0 5px #ccc;
- padding:45px 0;
-`
-
-const LftLogo = styled(Col)`
-  font-family: "din_bold";
-  font-size: 32px;
-  text-transform: uppercase;
-`
 
 export default function HeaderTop() {
-    return <TopBox>
+    return <div className="header">
         <Container>
             <Row>
-                <LftLogo xs={12}>Web3 Camp</LftLogo>
+                <Col className="headerTxt" xs={12}>Web3 Camp</Col>
             </Row>
         </Container>
-    </TopBox>
+    </div>
 }
