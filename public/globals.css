@@ -2,6 +2,10 @@
   font-family: "din_regular";
   src: url('https://web3camp.us/din_regular.otf');
 }
+@font-face {
+    font-family: "AdobeGurmukhi-Bold";
+    src: url("https://web3camp.us/AdobeGurmukhi-Bold.otf");
+}
 
 @font-face {
   font-family: "din_medium";
