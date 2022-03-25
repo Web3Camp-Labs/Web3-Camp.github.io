@@ -121,7 +121,7 @@ export default function  Home<NextPage>() {
                   <img src="/assets/images/web3logo.png" alt=""/>
               </LogoBox>
                 <div>
-                    <div className="mainTitle">Blockchain and secure Data<br/> Management</div>
+                    <div className="mainTitle">Tools and resources for all  <br />  Web3 Developers</div>
                     <div className="subTitle">Skillfully handle and improve efficiency. This is all the tools you need.</div>
                     <ButtonBox>
                         {/*<button>Get Started</button>*/}
