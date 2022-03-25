@@ -12,6 +12,20 @@ const BgBox = styled("div")`
     
   }
 `
+const Footer = styled.div`
+  height: 80px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  img{
+    width: 40px;
+    height: 40px;
+  }
+  .lft{
+    padding-left: 10px;
+  }
+`
 interface LayoutProps {
     children: ReactNode;
 }
@@ -23,6 +37,17 @@ export default function  Layout<FC>({ children}: LayoutProps ) {
                 { children }
 
             </BgBox>
+
+                <Container>
+                    <Footer>
+                        <div className="lft"><a href="https://web3camp.us">web3camp.us</a></div>
+                        <div>
+                            <a href="https://github.com/Web3-Camp" target="_blank"><img src="/assets/images/GitHub-Mark.png" alt=""/></a>
+                        </div>
+                    </Footer>
+                </Container>
+
+
            </div>
 
 }
