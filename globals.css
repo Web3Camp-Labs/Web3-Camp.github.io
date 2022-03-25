@@ -6,6 +6,10 @@
     font-family: "AdobeGurmukhi-Bold";
     src: url("https://web3camp.us/AdobeGurmukhi-Bold.otf");
 }
+@font-face {
+    font-family: "PingFang-SC-Regular";
+    src: url("https://web3camp.us/PingFang-SC-Regular.ttf");
+}
 
 @font-face {
   font-family: "din_medium";
