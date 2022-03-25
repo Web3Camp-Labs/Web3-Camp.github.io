@@ -1,7 +1,7 @@
 import React, {ReactNode, useEffect, useState, useRef, ChangeEvent, ReactElement, ComponentType} from "react";
 import type { NextPage } from 'next'
 import styled from "styled-components";
-import {Row, Col, Card} from 'react-bootstrap';
+import {Row, Col, Card,Container,Button} from 'react-bootstrap';
 import Layout from "../components/layout";
 import ListJson from '../public/json/list.json';
 
@@ -37,11 +37,16 @@ const CardBox = styled(Card)`
   }
   .content{
     opacity: 0.6;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
   }
  
   .card{
     display: flex;
-    
   }
   .card-body{
     height: 100%;
@@ -53,6 +58,45 @@ const ColBox = styled(Col)`
   a{
     display: flex;
     align-content: stretch;
+  }
+`
+const MainBox = styled.div`
+  background: url("/assets/images/TopBg.gif") no-repeat center -100px;
+  background-size: 1250px ;
+  margin-top: 30px;
+`
+const BannerBox = styled(Container)`
+  .mainTitle{
+    font-family: "AdobeGurmukhi-Bold";
+    font-size: 80px;
+    text-align: center;
+    line-height: 1.2em;
+    color: #2f1e0a;
+    margin: 60px 0 15px;
+  }
+  .subTitle{
+    text-align: center;
+    font-size: 28px;
+  }
+`
+const LogoBox = styled.div`
+    img{
+      width: 200px;
+    }
+`
+const ButtonBox = styled("div")`
+    text-align: center;
+  margin: 60px 0;
+  .centerBtn{
+    background:#2f1e0a!important;
+    border: 2px solid #2f1e0a ;
+    font-family: "PingFang-SC-Regular";
+    font-size: 20px;
+    padding: auto 20px;
+    &:hover{
+      background: transparent!important;
+      color: #2f1e0a;
+    }
   }
 `
 interface listObj{
@@ -68,29 +112,45 @@ export default function  Home<NextPage>() {
         setList(ListJson)
     },[])
   return (
-      <div>
-          <Row>
-              {
-                  list.map((item,index)=>(<ColBox md={4} xs={12} key={index}>
-                          <a href={item.href} target="_blank" rel="noreferrer">
-                              <CardBox body>
-                                  <div className="firstTR">
-                                      <div className="iconbox" >
-                                          <img src={item.logo} alt=""/>
+      <MainBox>
+          <BannerBox>
+              <LogoBox>
+                  <img src="/assets/images/web3logo.png" alt=""/>
+              </LogoBox>
+                <div>
+                    <div className="mainTitle">Blockchain and secure Data<br/> Management</div>
+                    <div className="subTitle">Skillfully handle and improve efficiency. This is all the tools you need.</div>
+                    <ButtonBox>
+                        {/*<button>Get Started</button>*/}
+                        <Button className="centerBtn">Submit  requirements</Button>
+                    </ButtonBox>
+                </div>
+          </BannerBox>
+          <Container>
+              <Row>
+                  {
+                      list.map((item,index)=>(<ColBox md={4} xs={12} key={index}>
+                              <a href={item.href} target="_blank" rel="noreferrer">
+                                  <CardBox body>
+                                      <div className="firstTR">
+                                          <div className="iconbox" >
+                                              <img src={item.logo} alt=""/>
+                                          </div>
+                                          <div className="middlebox">
+                                              <div className="title">{item.name}</div>
+                                              <div className="content">{item.description}</div>
+                                          </div>
                                       </div>
-                                      <div className="middlebox">
-                                          <div className="title">{item.name}</div>
-                                          <div className="content">{item.description}</div>
-                                      </div>
-                                  </div>
-                              </CardBox>
-                          </a>
-                      </ColBox>
+                                  </CardBox>
+                              </a>
+                          </ColBox>
 
-                  ))
-              }
-          </Row>
-      </div>
+                      ))
+                  }
+              </Row>
+          </Container>
+
+      </MainBox>
   )
 }
 

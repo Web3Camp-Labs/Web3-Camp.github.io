@@ -4,24 +4,25 @@ import styled from "styled-components";
 import {Container, Row, Col, Card} from 'react-bootstrap';
 // import  GlobalStyle from '../public/utils/GloablStyle'
 
-const MainBox = styled.div`
-    display: flex;
-`
-const BgBox = styled(Container)`
-  margin-top: 30px;
+const BgBox = styled("div")`
+
+  @media(max-width: 1000px){
+      padding: 0!important;
+      box-sizing: border-box;
+    
+  }
 `
 interface LayoutProps {
     children: ReactNode;
 }
 
 export default function  Layout<FC>({ children}: LayoutProps ) {
-    return <div>
-            <HeaderTop />
-            <MainBox>
-                <BgBox>
-                    { children }
+    return<div>
+            {/*<HeaderTop />*/}
+            <BgBox>
+                { children }
 
-                </BgBox>
-               </MainBox>
-        </div>
+            </BgBox>
+           </div>
+
 }
