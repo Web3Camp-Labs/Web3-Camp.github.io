@@ -85,6 +85,7 @@ const BannerBox = styled(Container)`
   .subTitle{
     text-align: center;
     font-size: 28px;
+    color: rgba(45, 29, 10, 0.6);
   }
 `
 const LogoBox = styled.div`
