@@ -7,7 +7,7 @@ import ListJson from '../public/json/list.json';
 
 const CardBox = styled(Card)`
   border:0;
-  box-shadow: 0 0 5px #ccc;
+  box-shadow: 0 0 5px #eee;
   border-radius: 6px;
   box-sizing: border-box;
   cursor: pointer;
@@ -96,6 +96,9 @@ const ButtonBox = styled("div")`
     &:hover{
       background: transparent!important;
       color: #2f1e0a;
+    }
+    &:focus{
+      outline: none!important;
     }
   }
 `
