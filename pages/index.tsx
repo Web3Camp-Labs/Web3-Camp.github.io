@@ -31,9 +31,12 @@ const CardBox = styled(Card)`
      padding: 20px;
    }
   .title{
-    font-size: 16px;
-    font-family: "din_bold";
+    font-size: 26px;
     margin:10px 0  20px;
+    color: #2D1D0A;
+    line-height: 37px;
+    font-weight: 500;
+    font-family: "PingFang-Medium";
   }
   .content{
     opacity: 0.6;
@@ -43,6 +46,10 @@ const CardBox = styled(Card)`
     -webkit-line-clamp: 2;
     -ms-text-overflow: ellipsis;
     text-overflow: ellipsis;
+    color: rgba(45, 29, 10, 0.6);
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "PingFang-SC-Regular";
   }
  
   .card{
