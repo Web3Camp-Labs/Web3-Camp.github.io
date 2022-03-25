@@ -1,4 +1,6 @@
 # Web3Camp.us
-The website of Web3Camp.
+
+Web3Camp is a website full of tools and resources for all Web 3.0 enthusiasts.  
+Sharpen your weapon and get started with Web 3.0 from here.  
 
 You can find the tools and development resoures in [https://web3camp.us](https://web3camp.us).
