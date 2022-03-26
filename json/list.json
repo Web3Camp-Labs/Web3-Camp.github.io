@@ -32,7 +32,7 @@
   {
     "href": "https://web3camp.us/batch-query/",
     "logo": "/assets/images/query.png",
-    "name": "Native token batch query",
+    "name": "Query",
     "description": "Batch query native token amount ,import/export csv file."
   }
 ]
