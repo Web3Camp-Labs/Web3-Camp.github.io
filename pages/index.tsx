@@ -99,9 +99,11 @@ const ButtonBox = styled("div")`
   .centerBtn{
     background:#2f1e0a!important;
     border: 2px solid #2f1e0a ;
+    border-radius: 6px;
     font-family: "PingFang-SC-Regular";
     font-size: 20px;
-    padding: auto 20px;
+    padding: 5px 20px;
+    color: white;
     &:hover{
       background: transparent!important;
       color: #2f1e0a;
@@ -134,7 +136,7 @@ export default function  Home<NextPage>() {
                     <div className="subTitle">Sharpen your weapon and get started with Web 3.0 from here.</div>
                     <ButtonBox>
                         {/*<button>Get Started</button>*/}
-                        <Button className="centerBtn">Submit  requirements</Button>
+                        <a href="https://github.com/Web3-Camp/Web3-Camp.github.io/issues/new" target="_blank" className="centerBtn">Submit Your Choice</a>
                     </ButtonBox>
                 </div>
           </BannerBox>
