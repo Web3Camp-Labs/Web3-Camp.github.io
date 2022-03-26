@@ -85,7 +85,8 @@ ul,li{
     padding:45px 0;
 }
 .headerTxt{
-    font-family: "din_bold";
+    font-family: "Helvetica";
+    font-weight: bolder;
     font-size: 32px;
     /* text-transform: uppercase; */
 }
