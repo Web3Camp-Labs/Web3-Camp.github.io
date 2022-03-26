@@ -24,6 +24,10 @@
   font-family: "din_bold";
   src: url('https://web3camp.us/din_bold.otf');
 }
+@font-face {
+  font-family: "Helvetica";
+  src: url('https://web3camp.us/Helvetica.ttc');
+}
 
 html,
 body {
@@ -35,7 +39,7 @@ body {
 * {
   padding: 0;
   margin: 0;
-font-family: "PingFang-SC-Regular";
+font-family: "Helvetica";
 }
 
 a{
