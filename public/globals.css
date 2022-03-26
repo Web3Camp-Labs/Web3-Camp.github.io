@@ -83,7 +83,7 @@ ul,li{
 .headerTxt{
     font-family: "din_bold";
     font-size: 32px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 .headetRht{
     text-align: right;
