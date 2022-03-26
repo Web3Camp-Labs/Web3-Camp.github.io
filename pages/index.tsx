@@ -78,14 +78,14 @@ const BannerBox = styled(Container)`
     font-family: "AdobeGurmukhi-Bold";
     font-size: 80px;
     text-align: center;
-    line-height: 1.2em;
+    line-height: 1em;
     color: #2f1e0a;
     margin: 60px 0 15px;
   }
   .subTitle{
     text-align: center;
     font-size: 28px;
-    color: rgba(45, 29, 10, 0.6);
+    color: #2D1D0ACC;
   }
 `
 const LogoBox = styled.div`
@@ -95,7 +95,7 @@ const LogoBox = styled.div`
 `
 const ButtonBox = styled("div")`
     text-align: center;
-  margin: 60px 0;
+  margin: 60px 0 120px;
   .centerBtn{
     background:#2f1e0a!important;
     border: 2px solid #2f1e0a ;
