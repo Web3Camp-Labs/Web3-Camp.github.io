@@ -39,7 +39,7 @@ const CardBox = styled(Card)`
     color: #2D1D0A;
     line-height: 37px;
     font-weight: bolder;
-    font-family: "PingFang-Medium";
+    font-family: "Helvetica";
     
   }
   .content{
@@ -53,7 +53,7 @@ const CardBox = styled(Card)`
     color: rgba(45, 29, 10, 0.6);
     font-weight: 400;
     font-size: 16px;
-    font-family: "PingFang-SC-Regular";
+    font-family: "Helvetica";
   }
  
   .card{
@@ -109,7 +109,7 @@ const ButtonBox = styled("div")`
     background:#2f1e0a!important;
     border: 2px solid #2f1e0a ;
     border-radius: 8px;
-    font-family: "PingFang-SC-Regular";
+    font-family: "Helvetica";
     font-size: 20px;
     padding: 8px 20px;
     color: white;
