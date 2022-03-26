@@ -99,10 +99,10 @@ const ButtonBox = styled("div")`
   .centerBtn{
     background:#2f1e0a!important;
     border: 2px solid #2f1e0a ;
-    border-radius: 6px;
+    border-radius: 8px;
     font-family: "PingFang-SC-Regular";
     font-size: 20px;
-    padding: 5px 20px;
+    padding: 8px 20px;
     color: white;
     &:hover{
       background: transparent!important;
