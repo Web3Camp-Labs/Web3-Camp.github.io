@@ -28,5 +28,11 @@
     "logo": "/assets/images/chainlist.png",
     "name": "Chainlist",
     "description": "Chainlist is a list of EVM networks. Users can use the information to connect their wallets and Web3 middleware providers to the appropriate Chain ID and Network ID to connect to the correct chain."
+  },
+  {
+    "href": "https://web3camp.us/batch-query/",
+    "logo": "/assets/images/query.png",
+    "name": "Native token batch query",
+    "description": "Batch query native token amount ,import/export csv file."
   }
 ]
