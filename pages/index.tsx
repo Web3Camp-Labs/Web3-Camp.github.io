@@ -7,12 +7,15 @@ import ListJson from '../public/json/list.json';
 
 const CardBox = styled(Card)`
   border:0;
-  box-shadow: 0 0 5px #eee;
+  //box-shadow: 0 0 5px #eee;
+  box-shadow: 0px 20px 40px 0px #F7F7F7;
+  border: 2px solid #fff;
   border-radius: 6px;
   box-sizing: border-box;
   cursor: pointer;
   margin-bottom: 20px;
   padding: 0!important;
+ 
   .firstTR{
     display: flex;
     align-content: stretch;
@@ -58,6 +61,12 @@ const CardBox = styled(Card)`
   }
   .card-body{
     height: 100%;
+  }
+  &:hover{
+    border: 2px solid #F4F3F1;
+    .content{
+      color: #2D1D0A;
+    }
   }
 `
 const ColBox = styled(Col)`
@@ -113,6 +122,7 @@ const ButtonBox = styled("div")`
     }
   }
 `
+
 interface listObj{
     name: string;
     logo: string;
@@ -144,7 +154,7 @@ export default function  Home<NextPage>() {
               <Row>
                   {
                       list.map((item,index)=>(<ColBox md={4} xs={12} key={index}>
-                              <a href={item.href} target="_blank" rel="noreferrer">
+                              <a href={item.href} target="_blank" rel="noreferrer" >
                                   <CardBox body>
                                       <div className="firstTR">
                                           <div className="iconbox" >
