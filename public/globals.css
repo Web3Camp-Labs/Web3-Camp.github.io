@@ -1,28 +1,6 @@
 @font-face {
-  font-family: "din_regular";
-  src: url('https://web3camp.us/din_regular.otf');
-}
-@font-face {
     font-family: "AdobeGurmukhi-Bold";
     src: url("https://web3camp.us/AdobeGurmukhi-Bold.otf");
-}
-@font-face {
-    font-family: "PingFang-SC-Regular";
-    src: url("https://web3camp.us/PingFang-SC-Regular.ttf");
-}
-@font-face {
-    font-family: "PingFang-Medium";
-    src: url("https://web3camp.us/PingFang-Medium.otf");
-}
-
-@font-face {
-  font-family: "din_medium";
-  src: url('https://web3camp.us/din_medium.otf');
-}
-
-@font-face {
-  font-family: "din_bold";
-  src: url('https://web3camp.us/din_bold.otf');
 }
 @font-face {
   font-family: "Helvetica";
