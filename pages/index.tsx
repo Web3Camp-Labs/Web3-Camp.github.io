@@ -78,8 +78,8 @@ const ColBox = styled(Col)`
   }
 `
 const MainBox = styled.div`
-  background: url("/assets/images/TopBg.gif") no-repeat center -100px;
-  background-size: 1250px ;
+  background: url("/assets/images/TopBg.gif") no-repeat center -50px;
+  background-size: 1440px ;
   padding-top: 30px;
 `
 const BannerBox = styled(Container)`
