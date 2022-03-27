@@ -1,10 +1,9 @@
-name: Submit New Tool/Resource
+name: Submit New Resource
 description: Submit a new tool/resource
 title: "[NEW]: "
 labels: ["NEW"]
 assignees:
   - xrdavies
-  - wendychaung
 body:
   - type: markdown
     attributes:
