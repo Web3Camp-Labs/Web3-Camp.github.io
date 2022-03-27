@@ -3,7 +3,7 @@ name: Submit Resource
 about: The info need for new resource
 title: '[NEW] <Resource Name>'
 labels: 'NEW'
-assignees: xrdavies wendychaung
+assignees: xrdavies
 
 ---
 
