@@ -3,7 +3,8 @@ description: Submit a new tool/resource
 title: "[NEW]: "
 labels: ["NEW"]
 assignees:
-  - octocat
+  - xrdavies
+  - wendychaung
 body:
   - type: input
     id: link
