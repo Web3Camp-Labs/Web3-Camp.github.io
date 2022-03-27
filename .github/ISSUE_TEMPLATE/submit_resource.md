@@ -1,3 +1,12 @@
+---
+name: Submit Resource
+about: The info need for new resource
+title: '[NEW] <Resource Name>'
+labels: ''
+assignees: ''
+
+---
+
 ## The link for the tool/resource?
 <!--  -->
 
