@@ -1,0 +1,48 @@
+name: Submit New Tool/Resource
+description: Submit a new tool/resource
+title: "[NEW]: "
+labels: ["NEW"]
+assignees:
+  - xrdavies
+  - wendychaung
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this new form!
+        
+  - type: input
+    id: link
+    attributes:
+      label: The link of the tool/resource
+      description: What is the link of this tool/resource?
+      placeholder: ex. https://web3camp.us/
+    validations:
+      required: true
+      
+  - type: input
+    id: logo
+    attributes:
+      label: The link of logo for the tool/resource
+      description: What is the logo link for this tool/resource?
+      placeholder: Tell us the link!
+    validations:
+      required: true
+      
+  - type: input
+    id: name
+    attributes:
+      label: The name of the tool/resource
+      description: What is the name of the tool/resource?
+      placeholder: Tell us the name!
+    validations:
+      required: true
+      
+  - type: textarea
+    id: description
+    attributes:
+      label: The description of the tool/resource
+      description: Please describe a little bit of the tool/resource?
+      placeholder: Please say something of the tool/resource!
+    validations:
+      required: true
