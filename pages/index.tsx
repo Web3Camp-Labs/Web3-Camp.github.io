@@ -123,6 +123,8 @@ const ButtonBox = styled("div")`
   }
 `
 
+const ISSUE_LINK = 'https://github.com/Web3-Camp/Web3-Camp.github.io/issues/new?assignees=xrdavies%2Cwendychaung&labels=NEW&template=new.yml&title=%5BNEW%5D%3A+';
+
 interface listObj{
     name: string;
     logo: string;
@@ -146,7 +148,7 @@ export default function  Home<NextPage>() {
                     <div className="subTitle">Sharpen your weapon and get started with Web 3.0 from here.</div>
                     <ButtonBox>
                         {/*<button>Get Started</button>*/}
-                        <a href="https://github.com/Web3-Camp/Web3-Camp.github.io/issues/new" target="_blank" rel="noreferrer" className="centerBtn">Submit Your Choice</a>
+                        <a href={ISSUE_LINK} target="_blank" rel="noreferrer" className="centerBtn">Submit Your Choice</a>
                     </ButtonBox>
                 </div>
           </BannerBox>
