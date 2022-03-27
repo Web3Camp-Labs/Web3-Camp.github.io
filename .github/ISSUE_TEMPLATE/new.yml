@@ -3,13 +3,8 @@ description: Submit a new tool/resource
 title: "[NEW]: "
 labels: ["NEW"]
 assignees:
-  - xrdavies
+  - octocat
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this new form!
-        
   - type: input
     id: link
     attributes:
@@ -18,7 +13,6 @@ body:
       placeholder: ex. https://web3camp.us/
     validations:
       required: true
-      
   - type: input
     id: logo
     attributes:
@@ -27,7 +21,6 @@ body:
       placeholder: Tell us the link!
     validations:
       required: true
-      
   - type: input
     id: name
     attributes:
@@ -36,7 +29,6 @@ body:
       placeholder: Tell us the name!
     validations:
       required: true
-      
   - type: textarea
     id: description
     attributes:
