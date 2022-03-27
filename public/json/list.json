@@ -33,6 +33,6 @@
     "href": "https://web3camp.us/batch-query/",
     "logo": "/assets/images/query.png",
     "name": "Query",
-    "description": "Batch query native token amount ,import/export csv file."
+    "description": "Batch query native/ERC20 token amount ,import/export csv file."
   }
 ]
