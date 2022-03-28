@@ -144,6 +144,7 @@ const ReBox = styled(Col)`
     line-height: 32px;
     margin: 0 auto;
     cursor: pointer;
+    background: url("/assets/images/Go.png") no-repeat 95px 8px;
   }
   .subTitle{
     width: 42px;
@@ -178,6 +179,7 @@ const ReBox = styled(Col)`
     .hoverBtn{
       visibility: visible;
       color: #301C06;
+
     }
   }
 `
@@ -193,12 +195,17 @@ const ReCard = styled(Card)`
 `
 const ReTitle = styled.div`
     text-align: center;
-  font-family: "AdobeGurmukhi-Bold";
   margin-bottom: 65px;
   font-size: 40px;
   font-weight: bold;
   color: #2D1D0A;
-  line-height: 48px;
+  span{
+    font-family: "AdobeGurmukhi-Bold";
+    display: inline-block;
+    line-height: 56px;
+    padding-left:30px;
+    background: url("/assets/images/bg.png") no-repeat;
+  }
 `
 
 const ISSUE_LINK = 'https://github.com/Web3-Camp/Web3-Camp.github.io/issues/new?assignees=xrdavies%2Cwendychaung&labels=NEW&template=new.yml&title=%5BNEW%5D%3A+';
@@ -266,7 +273,7 @@ export default function  Home<NextPage>() {
         <ResourceBox>
 
             <Container>
-                <ReTitle>Other Resources</ReTitle>
+                <ReTitle><span>Other Resources</span></ReTitle>
                 <Row>
                     {
                         resouce.map((item)=>(<ReBox md={3} xs={12}>
@@ -280,8 +287,6 @@ export default function  Home<NextPage>() {
                             </ReCard>
                         </ReBox>))
                     }
-
-
 
                 </Row>
             </Container>
