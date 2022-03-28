@@ -14,7 +14,7 @@ const BgBox = styled("div")`
 `
 const Footer = styled.div`
   height: 80px;
-  margin-top: 100px;
+  margin-top: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,7 +42,7 @@ export default function  Layout<FC>({ children}: LayoutProps ) {
                     <Footer>
                         <div className="lft">&copy; 2022 Web3camp.us</div>
                         <div>
-                            <a href="https://github.com/Web3-Camp" target="_blank" rel="noreferrer"><img src="/assets/images/GitHub-Mark.png" alt=""/></a>
+                            <a href="https://github.com/Web3-Camp" target="_blank" rel="noreferrer"><img src="/assets/images/github.png" alt=""/></a>
                         </div>
                     </Footer>
                 </Container>

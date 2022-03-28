@@ -4,6 +4,8 @@ import styled from "styled-components";
 import {Row, Col, Card,Container,Button} from 'react-bootstrap';
 import Layout from "../components/layout";
 import ListJson from '../public/json/list.json';
+import RescourceList from "../public/json/resourceList.json";
+import Link from "next/link";
 
 const CardBox = styled(Card)`
   border:0;
@@ -123,7 +125,84 @@ const ButtonBox = styled("div")`
   }
 `
 
+
+const ResourceBox = styled.div`
+    background: #FAFBFC;
+    margin-top: 60px;
+    padding: 40px 0 160px;
+`
+const ReBox = styled(Col)`
+  margin-bottom: 30px;
+  .hoverBtn{
+    visibility: hidden;
+    border-radius: 6px;
+    border: 2px solid #2D1D0A;
+    width: 120px;
+    height: 32px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 32px;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  .subTitle{
+    width: 42px;
+    height: 17px;
+    font-size: 14px;
+    font-family: Helvetica;
+    color: rgba(45, 29, 10, 0.5);
+    line-height: 17px;
+    margin-top: 4px;
+    text-transform: uppercase;
+  }
+  .logo{
+    width: 100%;
+    height: 71px;
+    margin-bottom: 9px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+      max-height: 100%;
+    }
+  }
+  .title{
+    font-size: 16px;
+    font-family: Helvetica;
+    color: #2D1D0A;
+    line-height: 19px;
+    text-transform: uppercase;
+  }
+  &:hover{
+    .hoverBtn{
+      visibility: visible;
+      color: #301C06;
+    }
+  }
+`
+const ReCard = styled(Card)`
+  background: #FAFBFC;
+  box-shadow: 0 20px 40px 0 #F7F7F7;
+  border-radius: 20px;
+  padding: 0 25px;
+  border: 2px solid #F7F7F7;
+  &:hover{
+    border: 2px solid #301C06;
+  }
+`
+const ReTitle = styled.div`
+    text-align: center;
+  font-family: "AdobeGurmukhi-Bold";
+  margin-bottom: 65px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #2D1D0A;
+  line-height: 48px;
+`
+
 const ISSUE_LINK = 'https://github.com/Web3-Camp/Web3-Camp.github.io/issues/new?assignees=xrdavies%2Cwendychaung&labels=NEW&template=new.yml&title=%5BNEW%5D%3A+';
+
 
 interface listObj{
     name: string;
@@ -131,11 +210,19 @@ interface listObj{
     href: string;
     description: string;
 }
+interface resouceObj{
+    title: string;
+    subtitle: string;
+    logo: string;
+    link: string;
+}
 export default function  Home<NextPage>() {
    const [list,setList] = useState<listObj[]>([])
+   const [resouce,setResouce] = useState<resouceObj[]>([])
 
     useEffect(()=>{
         setList(ListJson)
+        setResouce(RescourceList)
     },[])
   return (
       <MainBox>
@@ -153,6 +240,7 @@ export default function  Home<NextPage>() {
                 </div>
           </BannerBox>
           <Container>
+
               <Row>
                   {
                       list.map((item,index)=>(<ColBox md={4} xs={12} key={index}>
@@ -175,7 +263,29 @@ export default function  Home<NextPage>() {
                   }
               </Row>
           </Container>
+        <ResourceBox>
 
+            <Container>
+                <ReTitle>Other Resources</ReTitle>
+                <Row>
+                    {
+                        resouce.map((item)=>(<ReBox md={3} xs={12}>
+                            <ReCard body>
+                                <div className="title">{item.title}</div>
+                                <div className="subTitle">{item.subtitle}</div>
+                                <div className="logo">
+                                    <img src={item.logo} alt=""/>
+                                </div>
+                                <a href={item.link} target="_blank" rel="noreferrer"><div className="hoverBtn">GO TO</div></a>
+                            </ReCard>
+                        </ReBox>))
+                    }
+
+
+
+                </Row>
+            </Container>
+        </ResourceBox>
       </MainBox>
   )
 }
