@@ -98,6 +98,14 @@ const BannerBox = styled(Container)`
     font-size: 28px;
     color: #2D1D0ACC;
   }
+  @media(max-width: 1000px){
+    .mainTitle{
+      font-size: 60px;
+    }
+    .subTitle{
+      font-size: 20px;
+    }
+  }
 `
 const LogoBox = styled.div`
     img{
