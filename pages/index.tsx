@@ -276,7 +276,7 @@ export default function  Home<NextPage>() {
                 <ReTitle><span>Other Resources</span></ReTitle>
                 <Row>
                     {
-                        resouce.map((item)=>(<ReBox md={3} xs={12} key={index}>
+                        resouce.map((item,index)=>(<ReBox md={3} xs={12} key={index}>
                             <ReCard body>
                                 <div className="title">{item.title}</div>
                                 <div className="subTitle">{item.subtitle}</div>
