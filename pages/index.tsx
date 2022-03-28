@@ -108,7 +108,7 @@ const ButtonBox = styled("div")`
     text-align: center;
   margin: 60px 0 120px;
   .centerBtn{
-    background:#2f1e0a!important;
+    background:#2D1D0A!important;
     border: 2px solid #2f1e0a ;
     border-radius: 8px;
     font-family: "Helvetica";
@@ -116,8 +116,8 @@ const ButtonBox = styled("div")`
     padding: 8px 20px;
     color: white;
     &:hover{
-      background: transparent!important;
-      color: #2f1e0a;
+      //background: transparent!important;
+      background: #443727!important;
     }
     &:focus{
       outline: none!important;
