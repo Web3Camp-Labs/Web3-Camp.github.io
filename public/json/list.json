@@ -6,11 +6,12 @@
     "description": "Generate ETH Wallet Address in pure webpage from scratch!"
   },
   {
-    "href": "https://web3-camp.github.io/Polkadot-Wallet-Generator/",
-    "logo": "/assets/images/polkadot.png",
-    "name": "Polkadot Wallet Generator",
-    "description": "Generate Polkadot Wallet Address with @Polkadot/api !"
+    "href": "https://web3camp.us/faucet-list/",
+    "logo": "/assets/images/faucet.png",
+    "name": "Faucet",
+    "description": "Token faucet web app various tokens."
   },
+
   {
     "href": "https://web3-camp.github.io/batch-sender/",
     "logo": "/assets/images/multisender.png",
@@ -34,5 +35,11 @@
     "logo": "/assets/images/query.png",
     "name": "Query",
     "description": "Batch query native/ERC20 token amount ,import/export csv file."
+  },
+  {
+    "href": "https://web3-camp.github.io/Polkadot-Wallet-Generator/",
+    "logo": "/assets/images/polkadot.png",
+    "name": "Polkadot Wallet Generator",
+    "description": "Generate Polkadot Wallet Address with @Polkadot/api !"
   }
 ]
