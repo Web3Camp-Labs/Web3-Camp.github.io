@@ -47,5 +47,11 @@
     "logo": "/assets/images/cryptologs-black.png",
     "name": "Logo Collection",
     "description": "High Quality Cryptocurrency Logos"
+  },
+  {
+    "href": "https://daopark.xyz/",
+    "logo": "/assets/images/daopark.png",
+    "name": "DAO park",
+    "description": "DAO park is a collection of DAOs, that you can submit your DAO's information."
   }
 ]
