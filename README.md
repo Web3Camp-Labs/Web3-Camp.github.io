@@ -1,4 +1,4 @@
-[![Publish to GitHub Pages](https://github.com/Web3-Camp/Web3-Camp.github.io/actions/workflows/main.yml/badge.svg)](https://github.com/Web3-Camp/Web3-Camp.github.io/actions/workflows/main.yml)
+[![Publish to GitHub Pages](https://github.com/Web3Camp-Labs/Web3-Camp.github.io/actions/workflows/main.yml/badge.svg)](https://github.com/Web3Camp-Labs/Web3-Camp.github.io/actions/workflows/main.yml)
 
 # Web3Camp.us
 
@@ -7,7 +7,7 @@ Sharpen your weapon and get started with Web 3.0 from here.
 
 You can find the tools and development resources in [https://web3camp.us](https://web3camp.us).
 
-If you want to have some specific tools, you can add your idea in [Our project](https://github.com/orgs/Web3-Camp/projects/1/views/1) and we will try to implement them.
+If you want to have some specific tools, you can add your idea in [Our project](https://github.com/orgs/Web3Camp-Labs/projects/1/views/1) and we will try to implement them.
 
 # Build
 

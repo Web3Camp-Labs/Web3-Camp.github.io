@@ -42,7 +42,7 @@ export default function  Layout<FC>({ children}: LayoutProps ) {
                     <Footer>
                         <div className="lft">&copy; 2022 Web3Camp.us</div>
                         <div>
-                            <a href="https://github.com/Web3-Camp" target="_blank" rel="noreferrer"><img src="/assets/images/github.png" alt=""/></a>
+                            <a href="https://github.com/Web3Camp-Labs" target="_blank" rel="noreferrer"><img src="/assets/images/github.png" alt=""/></a>
                         </div>
                     </Footer>
                 </Container>

@@ -216,7 +216,7 @@ const ReTitle = styled.div`
   }
 `
 
-const ISSUE_LINK = 'https://github.com/Web3-Camp/Web3-Camp.github.io/issues/new?assignees=xrdavies%2Cwendychaung&labels=NEW&template=new.yml&title=%5BNEW%5D%3A+';
+const ISSUE_LINK = 'https://github.com/Web3Camp-Labs/Web3-Camp.github.io/issues/new?assignees=xrdavies%2Cwendychaung&labels=NEW&template=new.yml&title=%5BNEW%5D%3A+';
 
 
 interface listObj{
