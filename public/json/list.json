@@ -6,26 +6,26 @@
     "description": "DAO Park is a collection of DAOs, that you can submit your DAO's information."
   },
   {
-    "href": "https://web3camp.us/ETH-Wallet-Generator/",
+    "href": "https://web3camp-labs.github.io/ETH-Wallet-Generator/",
     "logo": "/assets/images/eth-diamond-black-white.jpeg",
     "name": "ETH Wallet Generator",
     "description": "Generate ETH Wallet Address in pure webpage from scratch!"
   },
   {
-    "href": "https://web3camp.us/faucet-list/",
+    "href": "https://web3camp-labs.github.io/faucet-list/",
     "logo": "/assets/images/faucet.png",
     "name": "Faucet",
     "description": "Token faucet web app various tokens."
   },
 
   {
-    "href": "https://web3camp.us/batch-sender/",
+    "href": "https://web3camp-labs.github.io/batch-sender/",
     "logo": "/assets/images/multisender.png",
     "name": "Token Batch Sender",
     "description": "It supports sending ERC20 tokens and ETH!"
   },
   {
-    "href": "https://web3camp.us/oneclick-dapp/",
+    "href": "https://web3camp-labs.github.io/oneclick-dapp/",
     "logo": "/assets/images/oneclick.png",
     "name": "OneClick dApp",
     "description": "OneClick dApp is a tool for smart contract developers to interactive with any smart contracts easily and quickly with one click!"
@@ -37,19 +37,19 @@
     "description": "Chainlist is a list of EVM networks. Users can use the information to connect their wallets and Web3 middleware providers to the appropriate Chain ID and Network ID to connect to the correct chain."
   },
   {
-    "href": "https://web3camp.us/batch-query/",
+    "href": "https://web3camp-labs.github.io/batch-query/",
     "logo": "/assets/images/query.png",
     "name": "Query",
     "description": "Batch query native/ERC20 token amount ,import/export csv file."
   },
   {
-    "href": "https://web3camp.us/Polkadot-Wallet-Generator/",
+    "href": "https://web3camp-labs.github.io/Polkadot-Wallet-Generator/",
     "logo": "/assets/images/polkadot.png",
     "name": "Polkadot Wallet Generator",
     "description": "Generate Polkadot Wallet Address with @Polkadot/api !"
   },
   {
-    "href": "https://web3camp.us/LogoCollection/",
+    "href": "https://web3camp-labs.github.io/LogoCollection/",
     "logo": "/assets/images/cryptologs-black.png",
     "name": "Logo Collection",
     "description": "High Quality Cryptocurrency Logos"
