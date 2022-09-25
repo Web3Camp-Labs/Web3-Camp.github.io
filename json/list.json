@@ -6,7 +6,7 @@
     "description": "DAO Park is a collection of DAOs, that you can submit your DAO's information."
   },
   {
-    "href": "https://web3-camp.github.io/ETH-Wallet-Generator/",
+    "href": "https://web3camp.us/ETH-Wallet-Generator/",
     "logo": "/assets/images/eth-diamond-black-white.jpeg",
     "name": "ETH Wallet Generator",
     "description": "Generate ETH Wallet Address in pure webpage from scratch!"
@@ -19,7 +19,7 @@
   },
 
   {
-    "href": "https://web3-camp.github.io/batch-sender/",
+    "href": "https://web3camp.us/batch-sender/",
     "logo": "/assets/images/multisender.png",
     "name": "Token Batch Sender",
     "description": "It supports sending ERC20 tokens and ETH!"
@@ -43,7 +43,7 @@
     "description": "Batch query native/ERC20 token amount ,import/export csv file."
   },
   {
-    "href": "https://web3-camp.github.io/Polkadot-Wallet-Generator/",
+    "href": "https://web3camp.us/Polkadot-Wallet-Generator/",
     "logo": "/assets/images/polkadot.png",
     "name": "Polkadot Wallet Generator",
     "description": "Generate Polkadot Wallet Address with @Polkadot/api !"
