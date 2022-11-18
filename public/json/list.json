@@ -19,7 +19,7 @@
   },
 
   {
-    "href": "https://web3camp.us/batch-sender/",
+    "href": "https://web3camp.us/multisender/",
     "logo": "/assets/images/multisender.png",
     "name": "Token Batch Sender",
     "description": "It supports sending ERC20 tokens and ETH!"
