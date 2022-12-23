@@ -255,9 +255,9 @@ export default function  Home<NextPage>() {
                 </div>
           </BannerBox>
           <Container>
-            <div>
-                <Link href="/list">more</Link>
-            </div>
+            {/*<div>*/}
+            {/*    <Link href="/list">more</Link>*/}
+            {/*</div>*/}
               <Row>
                   {
                       list.map((item,index)=>(<ColBox md={4} xs={12} key={index}>
