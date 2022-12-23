@@ -255,7 +255,9 @@ export default function  Home<NextPage>() {
                 </div>
           </BannerBox>
           <Container>
-
+            <div>
+                <Link href="/list">more</Link>
+            </div>
               <Row>
                   {
                       list.map((item,index)=>(<ColBox md={4} xs={12} key={index}>
@@ -273,7 +275,6 @@ export default function  Home<NextPage>() {
                                   </CardBox>
                               </a>
                           </ColBox>
-
                       ))
                   }
               </Row>
@@ -295,7 +296,6 @@ export default function  Home<NextPage>() {
                             </ReCard>
                         </ReBox>))
                     }
-
                 </Row>
             </Container>
         </ResourceBox>
