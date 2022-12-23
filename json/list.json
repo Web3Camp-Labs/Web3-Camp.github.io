@@ -59,6 +59,12 @@
     "logo": "/assets/images/nft-checker.png",
     "name": "NFT Checker",
     "description": "Verify and Source NFT Metadata"
+  },
+  {
+    "href": "https://web3camp.us/signator/",
+    "logo": "/assets/images/signator.png",
+    "name": "Signator",
+    "description": "A simple app that lets you sign a message with an Ethereum account "
   }
 
 ]
