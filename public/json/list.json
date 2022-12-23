@@ -18,6 +18,24 @@
     "description": "Generate ETH Wallet Address in pure webpage from scratch!"
   },
   {
+    "href": "https://web3camp.us/nft-checker/",
+    "logo": "/assets/images/nft-checker.png",
+    "name": "NFT Checker",
+    "description": "Verify and Source NFT Metadata"
+  },
+  {
+    "href": "https://web3camp.us/signator/",
+    "logo": "/assets/images/signator.png",
+    "name": "Signator",
+    "description": "A simple app that lets you sign a message with an Ethereum account "
+  },
+  {
+    "href": "https://web3camp.us/ethers-tool/",
+    "logo": "/assets/images/ethers-tools.png",
+    "name": "Ethers tools",
+    "description": "Online web3 tools using ethers.js"
+  },
+  {
     "href": "https://web3camp.us/faucet-list/",
     "logo": "/assets/images/faucet.png",
     "name": "Faucet",
@@ -54,24 +72,6 @@
     "logo": "/assets/images/cryptologs-black.png",
     "name": "Logo Collection",
     "description": "High Quality Cryptocurrency Logos"
-  },
-  {
-    "href": "https://web3camp.us/nft-checker/",
-    "logo": "/assets/images/nft-checker.png",
-    "name": "NFT Checker",
-    "description": "Verify and Source NFT Metadata"
-  },
-  {
-    "href": "https://web3camp.us/signator/",
-    "logo": "/assets/images/signator.png",
-    "name": "Signator",
-    "description": "A simple app that lets you sign a message with an Ethereum account "
-  },
-  {
-    "href": "https://web3camp.us/ethers-tool/",
-    "logo": "/assets/images/ethers-tools.png",
-    "name": "Ethers tools",
-    "description": "Online web3 tools using ethers.js"
   }
 
 ]
