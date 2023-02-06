@@ -190,6 +190,7 @@ const ReBox = styled(Col)`
 
     }
   }
+
 `
 const ReCard = styled(Card)`
   background: #FAFBFC;
@@ -200,6 +201,17 @@ const ReCard = styled(Card)`
   &:hover{
     border: 2px solid #301C06;
   }
+
+  @media(max-width: 1000px){
+    padding: 0;
+    .logo{
+      img{
+        max-width: 100%;
+       max-height: 30px;
+      }
+    }
+  }
+
 `
 const ReTitle = styled.div`
     text-align: center;
