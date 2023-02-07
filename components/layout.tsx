@@ -25,6 +25,10 @@ const Footer = styled.div`
   .lft{
     padding-left: 10px;
   }
+  a{
+    display: inline-block;
+    margin-left: 20px;
+  }
 `
 interface LayoutProps {
     children: ReactNode;
@@ -43,6 +47,7 @@ export default function  Layout<FC>({ children}: LayoutProps ) {
                         <div className="lft">&copy; 2022 Web3Camp.us</div>
                         <div>
                             <a href="https://github.com/Web3Camp-Labs" target="_blank" rel="noreferrer"><img src="/assets/images/github.png" alt=""/></a>
+                            <a href="https://twitter.com/Web3Camp" target="_blank" rel="noreferrer"><img src="/assets/images/Twitter.png" alt=""/></a>
                         </div>
                     </Footer>
                 </Container>
