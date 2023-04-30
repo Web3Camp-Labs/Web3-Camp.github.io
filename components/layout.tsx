@@ -1,7 +1,7 @@
-import React,{ ReactNode,FC } from 'react'
+import React, { ReactNode, FC } from 'react'
 import HeaderTop from "./headTop";
 import styled from "styled-components";
-import {Container, Row, Col, Card} from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 // import  GlobalStyle from '../public/utils/GloablStyle'
 
 const BgBox = styled("div")`
@@ -31,28 +31,29 @@ const Footer = styled.div`
   }
 `
 interface LayoutProps {
-    children: ReactNode;
+  children: ReactNode;
 }
 
-export default function  Layout<FC>({ children}: LayoutProps ) {
-    return<div>
-            {/*<HeaderTop />*/}
-            <BgBox>
-                { children }
+export default function Layout<FC>({ children }: LayoutProps) {
+  return <div>
+    {/*<HeaderTop />*/}
+    <BgBox>
+      {children}
 
-            </BgBox>
+    </BgBox>
 
-                <Container>
-                    <Footer>
-                        <div className="lft">&copy; 2022 Web3Camp.us</div>
-                        <div>
-                            <a href="https://github.com/Web3Camp-Labs" target="_blank" rel="noreferrer"><img src="/assets/images/github.png" alt=""/></a>
-                            <a href="https://twitter.com/Web3Camp" target="_blank" rel="noreferrer"><img src="/assets/images/Twitter.png" alt=""/></a>
-                        </div>
-                    </Footer>
-                </Container>
+    <Container>
+      <Footer>
+        <div className="lft">&copy; 2022 Web3Camp.us</div>
+        <div>
+          <a href="https://github.com/Web3Camp-Labs/graphic-assets" target="_blank" rel="noreferrer">Design Resources</a>
+          <a href="https://github.com/Web3Camp-Labs" target="_blank" rel="noreferrer"><img src="/assets/images/github.png" alt="" /></a>
+          <a href="https://twitter.com/Web3Camp" target="_blank" rel="noreferrer"><img src="/assets/images/Twitter.png" alt="" /></a>
+        </div>
+      </Footer>
+    </Container>
 
 
-           </div>
+  </div>
 
 }
