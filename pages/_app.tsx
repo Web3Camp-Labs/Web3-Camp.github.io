@@ -22,7 +22,8 @@ function MyApp({ Component, pageProps }: IAppProps) {
   const getLayout = Component.getLayout ?? ((page: ReactNode) => page)
   return <>
     <Head>
-      <title>Web3Camp - The camp for web3 developers</title>
+      <title>Web3Camp - The camp for web3 developers|web3|eth wallet generator|ethereum wallet generator|eth signature verify|faucet list|chain list|logo collection|batch query token|etherjs|nft checker</title>
+      <meta name="keywords"  content="Web3Camp,DAO,web3,eth wallet generator,ethereum wallet generator,eth signature verify,faucet list,chain list,logo collection,batch query token,etherjs,nft checker" />
       <meta name="description" content="Web3Camp - Tools and resources for all Web 3.0 enthusiasts. Sharpen your weapon and get started with Web 3.0 from here." />
 
       <meta property="og:url" content="https://web3camp.us/" />
