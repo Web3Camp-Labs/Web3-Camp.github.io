@@ -36,13 +36,18 @@
     "description": "Online web3 tools using ethers.js"
   },
   {
+    "href": "https://github.com/Web3Camp-Labs/web3pay",
+    "logo": "/assets/images/web3pay-logo.png",
+    "name": "web3pay",
+    "description": "The right way to integrate web3 pay"
+  },
+
+  {
     "href": "https://web3camp.us/faucet-list/",
     "logo": "/assets/images/faucet.png",
     "name": "Faucet",
     "description": "Token faucet web app various tokens."
   },
-
-
   {
     "href": "https://web3camp.us/oneclick-dapp/",
     "logo": "/assets/images/oneclick.png",
