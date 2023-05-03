@@ -13,6 +13,11 @@ module.exports = {
         result.push({ changefreq: 'yearly', priority: 0.7, lastmod: new Date().toISOString(), loc: '/ETH-Wallet-Generator' });
         result.push({ changefreq: 'yearly', priority: 0.7, lastmod: new Date().toISOString(), loc: '/oneclick-dapp' });
         result.push({ changefreq: 'yearly', priority: 0.7, lastmod: new Date().toISOString(), loc: '/batch-query' });
+        result.push({ changefreq: 'yearly', priority: 0.7, lastmod: new Date().toISOString(), loc: '/nft-checker' });
+        result.push({ changefreq: 'yearly', priority: 0.7, lastmod: new Date().toISOString(), loc: '/signator' });
+        result.push({ changefreq: 'yearly', priority: 0.7, lastmod: new Date().toISOString(), loc: '/ethers-tool' });
+        result.push({ changefreq: 'yearly', priority: 0.7, lastmod: new Date().toISOString(), loc: '/faucet-list' });
+        result.push({ changefreq: 'yearly', priority: 0.7, lastmod: new Date().toISOString(), loc: '/LogoCollection' });
 
         return result
     },
