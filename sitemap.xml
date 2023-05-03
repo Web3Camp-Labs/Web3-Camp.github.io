@@ -1,38 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://web3camp.us/</loc>
-  <lastmod>2022-04-02T05:11:32+00:00</lastmod>
-</url>
-<url>
-  <loc>https://web3camp.us/batch-sender/</loc>
-  <lastmod>2022-04-02T05:11:32+00:00</lastmod>
-</url>
-<url>
-  <loc>https://web3camp.us/chainlist/</loc>
-  <lastmod>2022-04-02T05:11:32+00:00</lastmod>
-</url>
-<url>
-  <loc>https://web3camp.us/Polkadot-Wallet-Generator/</loc>
-  <lastmod>2022-04-02T05:11:32+00:00</lastmod>
-</url>
-<url>
-  <loc>https://web3camp.us/ETH-Wallet-Generator/</loc>
-  <lastmod>2022-04-02T05:11:32+00:00</lastmod>
-</url>
-<url>
-  <loc>https://web3camp.us/oneclick-dapp/</loc>
-  <lastmod>2022-04-02T05:11:32+00:00</lastmod>
-</url>
-<url>
-  <loc>https://web3camp.us/batch-query/</loc>
-  <lastmod>2022-04-02T05:11:32+00:00</lastmod>
-</url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<sitemap><loc>https://web3camp.us/sitemap-0.xml</loc></sitemap>
+</sitemapindex>
