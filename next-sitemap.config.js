@@ -19,6 +19,13 @@ module.exports = {
         result.push({ changefreq: 'yearly', priority: 0.7, lastmod: new Date().toISOString(), loc: '/faucet-list' });
         result.push({ changefreq: 'yearly', priority: 0.7, lastmod: new Date().toISOString(), loc: '/LogoCollection' });
 
+
+        // open list.json in public folder
+        // const list = require('./public/json/list.json');
+        // list.forEach((item) => {
+        //     result.push({ changefreq: 'yearly', priority: 0.7, lastmod: new Date().toISOString(), loc: `${item.href}` });
+        // });
+
         return result
     },
 }
