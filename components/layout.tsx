@@ -18,6 +18,7 @@ const Footer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #eee;
   img{
     width: 40px;
     height: 40px;
@@ -30,6 +31,18 @@ const Footer = styled.div`
     margin-left: 20px;
   }
 `
+const LinkBox = styled.div`
+  margin:20px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.6;
+  .rht{
+    padding-left: 20px;
+    flex-grow: 1;
+  }
+`
+
 interface LayoutProps {
   children: ReactNode;
 }
@@ -51,6 +64,12 @@ export default function Layout<FC>({ children }: LayoutProps) {
           <a href="https://twitter.com/Web3Camp" target="_blank" rel="noreferrer"><img src="/assets/images/Twitter.png" alt="" /></a>
         </div>
       </Footer>
+      <LinkBox>
+        <div>Friends links:</div>
+        <div className="rht">
+          <a href="https://xdag.io/" target="_blank" rel="noreferrer">xdag.io</a>
+        </div>
+      </LinkBox>
     </Container>
 
 
