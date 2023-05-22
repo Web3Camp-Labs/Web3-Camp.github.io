@@ -72,6 +72,7 @@ export default function Layout<FC>({ children }: LayoutProps) {
         <div className="rht">
           <a href="https://rebase.network/ " target="_blank" rel="noreferrer">Rebase.network</a>
           <a href="https://xdag.io/" target="_blank" rel="noreferrer">Xdag.io</a>
+          <a href="https://learnblockchain.cn/" target="_blank" rel="noreferrer">登链社区</a>
         </div>
       </LinkBox>
     </Container>
