@@ -41,6 +41,9 @@ const LinkBox = styled.div`
     padding-left: 20px;
     flex-grow: 1;
   }
+  a{
+    margin-right: 10px;
+  }
 `
 
 interface LayoutProps {
@@ -67,7 +70,8 @@ export default function Layout<FC>({ children }: LayoutProps) {
       <LinkBox>
         <div>Friends links:</div>
         <div className="rht">
-          <a href="https://xdag.io/" target="_blank" rel="noreferrer">xdag.io</a>
+          <a href="https://rebase.network/ " target="_blank" rel="noreferrer">Rebase.network</a>
+          <a href="https://xdag.io/" target="_blank" rel="noreferrer">Xdag.io</a>
         </div>
       </LinkBox>
     </Container>
