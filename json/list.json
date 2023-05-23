@@ -43,7 +43,7 @@
   },
   {
     "href": " https://web3camp.us/rpc-list/",
-    "logo": "/assets/images/rpc-logo.png",
+    "logo": "/assets/images/rpc-logo.svg",
     "name": "RPC",
     "description": "This list show all your configured chains."
   },
