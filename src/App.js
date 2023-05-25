@@ -4,6 +4,8 @@ import Banner from "./components/banner";
 import About from "./components/about";
 import Line from "./components/line";
 import Tools from "./components/tools";
+import Countdown from "./components/countdown";
+import Other from "./components/other";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <About />
       <Line />
       <Tools />
+      <Countdown />
+      <Other />
       <GlobalStyle />
     </div>
   );
