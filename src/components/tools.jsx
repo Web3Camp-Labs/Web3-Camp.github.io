@@ -21,6 +21,20 @@ const Box = styled.div`
 
 const ListUl = styled.ul`
     width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  li{
+    border: 1px solid #eee;
+    border-radius: 5px;
+    width: 32%;
+    margin-right: 2%;
+    padding: 20px;
+    box-sizing: border-box;
+    &:nth-child(3n){
+      margin-right: 0;
+    }
+  }
 `
 export default function Tools(){
     return <Box>
@@ -30,6 +44,8 @@ export default function Tools(){
                 We Have Completed Latest Tools
             </div>
             <ListUl>
+                <li></li>
+                <li></li>
                 <li></li>
             </ListUl>
         </div>
