@@ -24,7 +24,7 @@ const ListUl = styled.ul`
     width: 100%;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 50px;
+  margin-top: 80px;
   li{
     width: 30%;
     box-sizing: border-box;
