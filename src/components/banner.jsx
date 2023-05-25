@@ -4,8 +4,8 @@ import BgImg from "../assets/images/banner.png";
 const Box = styled.div`
     background: url(${BgImg}) no-repeat;
   background-size: 100%;
-  width: 100%;
   padding: 80px 0;
+  box-sizing: border-box;
 `
 
 const FirstLine = styled.div`
@@ -15,10 +15,10 @@ const FirstLine = styled.div`
   .lft{
     flex-shrink: 0;
   }
-  .title{
+  .titleBanner{
     font-family: "Jost-ExtraBold";
     font-size: 70px;
-    width: 58%;
+    width: 900px;
     line-height: 1.2em;
   }
   .Welcome{
@@ -77,7 +77,7 @@ export default function Banner(){
                     <div className="Welcome">
                         Welcome  to  Web3Camp.us
                     </div>
-                    <div className="title">
+                    <div className="titleBanner">
                         Tools and resources for all
                         Web 3.0 enthusiasts
                     </div>

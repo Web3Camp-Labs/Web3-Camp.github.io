@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import ListJson from "../json/list.json";
 
 const Box = styled.div`
   padding: 80px 0;
@@ -25,14 +26,85 @@ const ListUl = styled.ul`
   flex-wrap: wrap;
   margin-top: 50px;
   li{
-    border: 1px solid #eee;
-    border-radius: 5px;
-    width: 32%;
-    margin-right: 2%;
-    padding: 20px;
+    width: 30%;
     box-sizing: border-box;
+    margin-right: 5%;
+    margin-bottom: 100px;
+    position: relative;
+    cursor: pointer;
     &:nth-child(3n){
       margin-right: 0;
+    }
+    
+    &:hover{
+      .inner{
+        box-shadow: 0 12px 30px rgba(45,56,68,.12);
+      }
+      .innerLine{
+        background: #f3801f;
+        border: 1px solid #f3801f;
+      }
+      .itemTitle{
+        color: #fff;
+      }
+      .mask{
+        display: flex;
+      }
+    }
+    .mask{
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: rgba(255,255,255,0.5);
+      border-radius: 10px;
+      width: 100%;
+      height: 100%;
+      display: none;
+      align-items: center;
+      justify-content: center;
+    }
+    .innerLine{
+      border-radius: 10px;
+      border: 1px solid #eee;
+      height: 180px;
+      display: flex;
+      align-items: flex-end;
+      margin:0 20px;
+      box-sizing: border-box;
+      padding: 10px 20px;
+    }
+  
+    .inner{
+      width:100%;
+      height: 140px;
+      background: #fff;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      box-sizing: border-box;
+      //box-shadow: 0 12px 30px rgba(45,56,68,.06);
+      box-shadow: 0 2px 10px rgba(45,56,68,.1);
+      left: 0;
+      top: -20px;
+      position: absolute;
+    }
+    .itemTitle{
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    img{
+      width: 30%;
+      margin-right: 20px;
+    }
+    .desc{
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      -ms-text-overflow: ellipsis;
+      text-overflow: ellipsis;
     }
   }
 `
@@ -44,9 +116,24 @@ export default function Tools(){
                 We Have Completed Latest Tools
             </div>
             <ListUl>
-                <li></li>
-                <li></li>
-                <li></li>
+                {
+                    ListJson.map((item,index)=>(<li key={index}>
+                        <div className="innerLine">
+
+                            <div className="inner">
+                                <div className="mask"></div>
+                                <img src={item.logo} alt=""/>
+                                <div className="desc">
+
+                                    {item.description}
+                                </div>
+                            </div>
+                            <div className="itemTitle">{item.name}</div>
+                        </div>
+
+                    </li>))
+                }
+
             </ListUl>
         </div>
     </Box>
