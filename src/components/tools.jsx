@@ -56,6 +56,7 @@ const ListUl = styled.ul`
       left: 0;
       top: 0;
       background: rgba(255,255,255,0.5);
+      backdrop-filter: blur(2px);
       border-radius: 10px;
       width: 100%;
       height: 100%;
