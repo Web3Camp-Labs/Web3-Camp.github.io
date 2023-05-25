@@ -66,12 +66,12 @@ const ListUl = styled.ul`
     .innerLine{
       border-radius: 10px;
       border: 1px solid #eee;
-      height: 180px;
+      height: 170px;
       display: flex;
       align-items: flex-end;
       margin:0 20px;
       box-sizing: border-box;
-      padding: 10px 20px;
+      padding: 5px 20px;
     }
   
     .inner{
