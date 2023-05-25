@@ -28,9 +28,6 @@ const GlobalStyle = createGlobalStyle`
     text-decoration: none;
     color: #666666;
   }
-  a:hover{
-    color: purple;
-  }
 
   ul,li{
     list-style: none;

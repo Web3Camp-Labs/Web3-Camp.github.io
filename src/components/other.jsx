@@ -23,6 +23,22 @@ const UlBox = styled.ul`
     width: 23%;
     box-sizing: border-box;
     padding: 40px;
+    border-radius: 10px;
+  }
+  .title{
+    font-family: "Jost-SemiBold";
+    font-size: 18px;
+    color: #000;
+  }
+  .subTitle{
+    margin-bottom: 20px;
+    opacity: 0.8;
+  }
+  .logo{
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    
   }
 `
 
@@ -35,11 +51,13 @@ export default function Other(){
             <UlBox>
                 {
                     ResourceList.map((item,index)=>(  <li key={index}>
-                        <div className="title">{item.title}</div>
-                        <div className="subTitle">{item.subtitle}</div>
-                        <div className="logo">
-                            <img src={item.logo} alt=""/>
-                        </div>
+                        <a href={item.link} target="_blank" rel="noreferrer">
+                            <div className="title">{item.title}</div>
+                            <div className="subTitle">{item.subtitle}</div>
+                            <div className="logo">
+                                <img src={item.logo} alt=""/>
+                            </div>
+                        </a>
                     </li>))
                 }
 
