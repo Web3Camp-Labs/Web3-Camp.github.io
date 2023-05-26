@@ -43,17 +43,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0 auto;
     width: 1270px;
   }
-
-  @keyframes moveTop {
-    from {
-      -webkit-transform: rotateX(13deg) rotateY(0deg);
-      transform: rotateX(13deg) rotateY(0deg);
-    }
-
-    to {
-      -webkit-transform: rotateX(13deg) rotateY(360deg);
-      transform: rotateX(13deg) rotateY(360deg);
-    }
-  }
+  
+  
 `;
 export default GlobalStyle

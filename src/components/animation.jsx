@@ -6,7 +6,8 @@ import Img4 from "../assets/images/banner/eth-diamond-black-white.jpeg";
 import Img5 from "../assets/images/banner/signator.png";
 import Img6 from "../assets/images/banner/chainlist.png";
 import Img7 from "../assets/images/banner/web3logo.png"
-import Img8 from "../assets/images/banner/web3logo2.png"
+import Img8 from "../assets/images/banner/web3logo2.png";
+import "./ani.css";
 // import Img7 from "../assets/images/banner/web3logo_out.png"
 // import Img8 from "../assets/images/banner/web3logo_out2.png"
 
