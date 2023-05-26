@@ -32,7 +32,7 @@ const UlBox = styled.ul`
   .lft{
   display:flex;
     align-items: flex-start;
-    margin-right: 20px;
+    margin-right: 10px;
     font-size: 18px;
     span{
       font-family: "Jost-SemiBold";
