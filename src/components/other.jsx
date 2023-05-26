@@ -2,7 +2,7 @@ import styled from "styled-components";
 import ResourceList from "../json/resourceList.json";
 
 const Box = styled.div`
-  padding: 80px 0;
+  padding: 80px 0 150px;
   .mainContent{
     display: flex;
     flex-direction: column;

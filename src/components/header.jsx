@@ -22,15 +22,31 @@ const RhtBox = styled.div`
       margin-left: 20px;
     }
 `
+
+const UlBox = styled.ul`
+    display: flex;
+  align-items: center;
+  margin-right: 20px;
+  li{
+    margin-left: 40px;
+  }
+`
 export default function Header(){
     return <Box>
         <div>
             <img src={LogoImg} alt="" className="logo" />
         </div>
+
         <RhtBox>
+            <UlBox>
+                <li>About Us</li>
+                <li>Join Us</li>
+                <li>Tools</li>
+                <li>Tutorials</li>
+                <li>Other Resources</li>
+            </UlBox>
             <a href="https://github.com/Web3Camp-Labs" target="_blank" rel="noreferrer"> <img src={GithubImg} alt=""/></a>
             <a href="https://twitter.com/Web3Camp" target="_blank" rel="noreferrer"><img src={TwitterImg} alt=""/></a>
-
 
         </RhtBox>
     </Box>
