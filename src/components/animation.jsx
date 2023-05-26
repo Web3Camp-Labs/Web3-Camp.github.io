@@ -1,4 +1,13 @@
 import styled from "styled-components";
+import Img1 from "../assets/images/banner/faucet.png";
+import Img2 from "../assets/images/banner/ethers-tools.png";
+import Img3 from "../assets/images/banner/multisender.png";
+import Img4 from "../assets/images/banner/eth-diamond-black-white.jpeg";
+import Img5 from "../assets/images/banner/signator.png";
+import Img6 from "../assets/images/banner/chainlist.png";
+import Img7 from "../assets/images/banner/web3logo.png"
+import Img8 from "../assets/images/banner/web3logo2.png"
+
 
 const Box  = styled.div`
   padding: 80px 0;
@@ -8,8 +17,6 @@ const InnerBox = styled.div`
   .box {
     width: 200px;
     height: 200px;
-
-    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -17,8 +24,6 @@ const InnerBox = styled.div`
     top: 20%;
     right:20%;
     transform: translate(-50%, -50%);
-    /* margin-left: 42%; */
-    /* margin-top: 22%; */
     -webkit-transform-style: preserve-3d;
     -webkit-transform: rotateX(13deg);
     -webkit-animation: move 5s linear infinite;
@@ -35,36 +40,37 @@ const InnerBox = styled.div`
     width: 100px;
     height: 100px;
     position: absolute;
+    border: 0.5px solid #eee;
     left: 0;
     top: 0;
   }
   .minbox li:nth-child(1) {
-    background: url("./assets/logo/daopark.png") no-repeat 0 0;
+    background: url(${Img1}) no-repeat 0 0;
     background-size: 100% 100%;
     -webkit-transform: translateZ(50px);
   }
   .minbox li:nth-child(2) {
-    background: url("./assets/logo/faucet.png") no-repeat 0 0;
+    background: url(${Img3}) no-repeat 0 0;
     background-size: 100% 100%;
     -webkit-transform: rotateX(180deg) translateZ(50px);
   }
   .minbox li:nth-child(3) {
-    background: url("./assets/logo/multisender.png") no-repeat 0 0;
+    background: url(${Img6}) no-repeat 0 0;
     background-size: 100% 100%;
     -webkit-transform: rotateX(-90deg) translateZ(50px);
   }
   .minbox li:nth-child(4) {
-    background: url("./assets/logo/oneclick.png") no-repeat 0 0;
+    background: url(${Img4}) no-repeat 0 0;
     background-size: 100% 100%;
     -webkit-transform: rotateX(90deg) translateZ(50px);
   }
   .minbox li:nth-child(5) {
-    background: url("./assets/logo/polkadot.png") no-repeat 0 0;
+    background: url(${Img5}) no-repeat 0 0;
     background-size: 100% 100%;
     -webkit-transform: rotateY(-90deg) translateZ(50px);
   }
   .minbox li:nth-child(6) {
-    background: url("./assets/logo/ethers-tools.png") no-repeat 0 0;
+    background: url(${Img2}) no-repeat 0 0;
     background-size: 100% 100%;
     -webkit-transform: rotateY(90deg) translateZ(50px);
   }
@@ -72,32 +78,32 @@ const InnerBox = styled.div`
 
 
   .maxbox li:nth-child(1) {
-    background: url(./01.jpeg) no-repeat 0 0;
+    background: url(${Img7}) no-repeat 0 0;
     background-size: 100% 100%;
     -webkit-transform: translateZ(50px);
   }
   .maxbox li:nth-child(2) {
-    background: url(./02.jpeg) no-repeat 0 0;
+    background: url(${Img8}) no-repeat 0 0;
     background-size: 100% 100%;
     -webkit-transform: translateZ(50px);
   }
   .maxbox li:nth-child(3) {
-    background: url(./03.jpeg) no-repeat 0 0;
+    background: url(${Img7}) no-repeat 0 0;
     background-size: 100% 100%;
     -webkit-transform: rotateX(-90deg) translateZ(50px);
   }
   .maxbox li:nth-child(4) {
-    background: url(./04.jpeg) no-repeat 0 0;
+    background: url(${Img7}) no-repeat 0 0;
     background-size: 100% 100%;
     -webkit-transform: rotateX(90deg) translateZ(50px);
   }
   .maxbox li:nth-child(5) {
-    background: url(./05.jpeg) no-repeat 0 0;
+    background: url(${Img7}) no-repeat 0 0;
     background-size: 100% 100%;
     -webkit-transform: rotateY(-90deg) translateZ(50px);
   }
   .maxbox li:nth-child(6) {
-    background: url(./06.jpeg) no-repeat 0 0;
+    background: url(${Img7}) no-repeat 0 0;
     background-size: 100% 100%;
     -webkit-transform: rotateY(90deg) translateZ(50px);
   }
