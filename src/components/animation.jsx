@@ -7,6 +7,8 @@ import Img5 from "../assets/images/banner/signator.png";
 import Img6 from "../assets/images/banner/chainlist.png";
 import Img7 from "../assets/images/banner/web3logo.png"
 import Img8 from "../assets/images/banner/web3logo2.png"
+// import Img7 from "../assets/images/banner/web3logo_out.png"
+// import Img8 from "../assets/images/banner/web3logo_out2.png"
 
 
 const Box  = styled.div`
@@ -27,6 +29,8 @@ const InnerBox = styled.div`
     -webkit-transform-style: preserve-3d;
     -webkit-transform: rotateX(13deg);
     -webkit-animation: move 5s linear infinite;
+    animation: move 5s linear infinite;
+    cursor: pointer;
   }
   .minbox {
     width: 100px;
