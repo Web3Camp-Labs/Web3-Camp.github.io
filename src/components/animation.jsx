@@ -16,13 +16,13 @@ const Box  = styled.div`
   position: relative;
 `
 const InnerBox = styled.div`
-  @keyframes move {
-    0% {
+  @keyframes moveTop {
+    from {
       -webkit-transform: rotateX(13deg) rotateY(0deg);
       transform: rotateX(13deg) rotateY(0deg);
     }
 
-    100% {
+    to {
       -webkit-transform: rotateX(13deg) rotateY(360deg);
       transform: rotateX(13deg) rotateY(360deg);
     }
@@ -42,8 +42,8 @@ const InnerBox = styled.div`
     transform-style: preserve-3d;
     -webkit-transform: rotateX(13deg);
     transform: rotateX(13deg);
-    -webkit-animation: move 5s linear infinite;
-    animation: move 5s linear infinite;
+    -webkit-animation: moveTop 5s linear infinite;
+    animation: moveTop 5s linear infinite;
     cursor: pointer;
   }
   .minbox {
