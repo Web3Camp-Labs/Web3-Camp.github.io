@@ -108,19 +108,19 @@ export default function Stack(){
                     </a>
                 </dl>
                 <dl>
-                    <a href="" target="_blank" rel="noreferrer">
+                    <a href="https://www.css3.com/" target="_blank" rel="noreferrer">
                     <img src={CssImg} alt=""/>
                     <dt>Css3</dt>
                     </a>
                 </dl>
                 <dl>
-                    <a href="https://www.css3.com/" target="_blank" rel="noreferrer">
+                    <a href="https://html5.org/" target="_blank" rel="noreferrer">
                     <img src={HTMLImg} alt=""/>
                     <dt>HTML5</dt>
                     </a>
                 </dl>
                 <dl>
-                    <a href="https://html5.org/" target="_blank" rel="noreferrer">
+                    <a href="https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html" target="_blank" rel="noreferrer">
                     <img src={TsImg} alt=""/>
                     <dt>Typescript</dt>
                     </a>
