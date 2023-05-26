@@ -56,14 +56,15 @@ export default function (){
             >
                 <SwiperSlide >
                     <li>
-                        <a href="https://rebase.network/posts/3227" target="_blank" rel="noreferrer"> <img src={AdImg1} alt=""/></a>
+                        <a href="https://www.eventbrite.hk/e/dao-montenegro-tickets-626996241637" target="_blank" rel="noreferrer"> <img src={AdImg2} alt=""/></a>
                     </li>
                 </SwiperSlide>
                 <SwiperSlide >
                     <li>
-                         <a href="https://www.eventbrite.hk/e/dao-montenegro-tickets-626996241637" target="_blank" rel="noreferrer"> <img src={AdImg2} alt=""/></a>
-                     </li>
+                        <a href="https://rebase.network/posts/3227" target="_blank" rel="noreferrer"> <img src={AdImg1} alt=""/></a>
+                    </li>
                 </SwiperSlide>
+
                 <SwiperSlide >
                     <li>
                         <a href="https://daopark.xyz/" target="_blank" rel="noreferrer"> <img src={AdImg3} alt=""/></a>
