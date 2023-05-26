@@ -25,7 +25,7 @@ const LftBox = styled.div`
     margin-bottom: 10px;
   }
   .desc{
-    opacity: 0.6;
+    opacity: 0.8;
   }
 `
 const MidBox = styled.ul`
