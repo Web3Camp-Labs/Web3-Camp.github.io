@@ -26,8 +26,11 @@ const InnerBox = styled.div`
     top: 20%;
     right:20%;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
     -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
     -webkit-transform: rotateX(13deg);
+    transform: rotateX(13deg);
     -webkit-animation: move 5s linear infinite;
     animation: move 5s linear infinite;
     cursor: pointer;
@@ -199,9 +202,11 @@ const InnerBox = styled.div`
   @keyframes move {
     0% {
       -webkit-transform: rotateX(13deg) rotateY(0deg);
+      transform: rotateX(13deg) rotateY(0deg);
     }
     100% {
       -webkit-transform: rotateX(13deg) rotateY(360deg);
+      transform: rotateX(13deg) rotateY(360deg);
     }
   }
 `
