@@ -71,7 +71,7 @@ export default function Footer(){
                         <img src={WhiteImg} alt=""/>
                         <div className="desc">Our mission is to provide a platform for developers to learn about the blockchain and to provide a community of developers.</div>
                     </div>
-                    <div className="copy">Copyright © 2023 Web3Camp </div>
+                    <div className="copy">Copyright © 2023 Web3Camp.us </div>
                 </LftBox>
                 <MidBox>
                     <li>Home</li>
