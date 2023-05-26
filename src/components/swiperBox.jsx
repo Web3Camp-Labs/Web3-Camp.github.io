@@ -5,6 +5,8 @@ import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Pagination,Navigation } from "swiper";
 import AdImg3 from "../assets/images/news/daopark.png";
+import AdImg1 from "../assets/images/news/rebase.png";
+import AdImg2 from "../assets/images/news/seedao.png";
 
 const AdvLine = styled.ul`
     display: flex;
@@ -52,11 +54,19 @@ export default function (){
                 modules={[FreeMode, Navigation,Pagination]}
                 className="mySwiper"
             >
-                <SwiperSlide ><li>33</li></SwiperSlide>
-                <SwiperSlide ><li>3</li></SwiperSlide>
                 <SwiperSlide >
                     <li>
-                        <img src={AdImg3} alt=""/>
+                        <a href="https://rebase.network/posts/3227" target="_blank" rel="noreferrer"> <img src={AdImg1} alt=""/></a>
+                    </li>
+                </SwiperSlide>
+                <SwiperSlide >
+                    <li>
+                         <a href="https://www.eventbrite.hk/e/dao-montenegro-tickets-626996241637" target="_blank" rel="noreferrer"> <img src={AdImg2} alt=""/></a>
+                     </li>
+                </SwiperSlide>
+                <SwiperSlide >
+                    <li>
+                        <a href="https://daopark.xyz/" target="_blank" rel="noreferrer"> <img src={AdImg3} alt=""/></a>
                     </li>
                 </SwiperSlide>
             </Swiper>
