@@ -8,6 +8,7 @@ import Countdown from "./components/countdown";
 import Other from "./components/other";
 import Advantage from "./components/advantage";
 import Stack from "./components/stack";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Line />
         <Stack />
         <Other />
+        <Footer />
       <GlobalStyle />
     </div>
   );
