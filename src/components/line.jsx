@@ -48,7 +48,10 @@ export default function Line(){
                     <div className="titleJoin">Join Us</div>
                     <div className="tips">Whether you are a developer, investor, researcher, or just a casual user who wants to learn about Web3 technologies, Web3Camp can provide you with useful resources, knowledge, and support to help you better explore and apply Web3 technologies.</div>
                 </LftBox>
+            <a href="https://github.com/Web3Camp-Labs" target="_blank" rel="noreferrer">
                 <RhtBox>Join Us</RhtBox>
+            </a>
+
             </div>
 
         </div>
