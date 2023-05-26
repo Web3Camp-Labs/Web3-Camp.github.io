@@ -14,10 +14,11 @@ function App() {
       <Header />
       <Banner />
       <About />
-      <Line />
+        <Countdown />
+
         <Advantage />
       <Tools />
-      <Countdown />
+        <Line />
       <Other />
       <GlobalStyle />
     </div>

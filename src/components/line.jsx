@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import OrangeImg from "../assets/images/book-bg.png";
+import OrangeImg from "../assets/images/bg_banner.jpg";
 
 const Box = styled.div`
     background: url(${OrangeImg});
@@ -7,7 +7,15 @@ const Box = styled.div`
   background-attachment: fixed;
   color: #fff;
   box-sizing: border-box;
-  padding: 40px 0;
+
+  .inner{
+    background: rgba(0,0,0,.5);
+    backdrop-filter: blur(1px);
+    width: 100%;
+    height: 100%;
+
+    padding: 40px 0;
+  }
   .mainContent{
     display: flex;
     align-items: center;
@@ -35,12 +43,16 @@ const RhtBox = styled.div`
 `
 export default function Line(){
     return <Box>
+        <div className="inner">
         <div className="mainContent">
-            <LftBox>
-                <div className="titleJoin">Join Us</div>
-                <div className="tips">Whether you are a developer, investor, researcher, or just a casual user who wants to learn about Web3 technologies, Web3Camp can provide you with useful resources, knowledge, and support to help you better explore and apply Web3 technologies.</div>
-            </LftBox>
-            <RhtBox>Join Us</RhtBox>
+
+                <LftBox>
+                    <div className="titleJoin">Join Us</div>
+                    <div className="tips">Whether you are a developer, investor, researcher, or just a casual user who wants to learn about Web3 technologies, Web3Camp can provide you with useful resources, knowledge, and support to help you better explore and apply Web3 technologies.</div>
+                </LftBox>
+                <RhtBox>Join Us</RhtBox>
+            </div>
+
         </div>
     </Box>
 }
