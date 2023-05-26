@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import BgImg from "../assets/images/book-bg.png";
-import CountUp, { useCountUp } from 'react-countup';
+import CountUp from 'react-countup';
 
 const Box = styled.div`
     background: url(${BgImg}) center;
