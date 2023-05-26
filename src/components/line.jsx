@@ -19,6 +19,9 @@ const Box = styled.div`
     align-items: center;
     justify-content: space-between;
   }
+  a{
+    color: #fff;
+  }
 `
 const LftBox = styled.div`
     width: 80%;
@@ -38,6 +41,7 @@ const RhtBox = styled.div`
   border: 2px solid #fff;
   padding: 10px 20px;
   font-family: "Jost-SemiBold";
+  color: #fff;
 `
 export default function Line(){
     return <Box>
