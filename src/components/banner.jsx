@@ -1,11 +1,11 @@
 import styled from "styled-components";
 import BgImg from "../assets/images/banner.png";
 import SwiperBox from "./swiperBox";
+import Animation from "./animation";
 
 const Box = styled.div`
     background: url(${BgImg}) no-repeat;
   background-size: 100%;
-  padding: 80px 0;
   box-sizing: border-box;
 `
 
@@ -54,25 +54,30 @@ export default function Banner(){
 
 
     return <Box>
+        <Animation>
         <div className="mainContent">
-            <FirstLine>
-                <div className="lft">
-                    <div className="Welcome">
-                        Welcome  to  Web3Camp.us
+
+                <FirstLine>
+                    <div className="lft">
+                        <div className="Welcome">
+                            Welcome  to  Web3Camp.us
+                        </div>
+                        <div className="titleBanner">
+                            Tools and resources for all
+                            Web 3.0 enthusiasts
+                        </div>
+                        <div className="tips">
+                            Sharpen your weapon and get started with Web 3.0 from here.
+                        </div>
+                        <a href={ISSUE_LINK} target="_blank" rel="noreferrer"> <BtnBox>Submit Your Choice</BtnBox></a>
                     </div>
-                    <div className="titleBanner">
-                        Tools and resources for all
-                        Web 3.0 enthusiasts
-                    </div>
-                    <div className="tips">
-                        Sharpen your weapon and get started with Web 3.0 from here.
-                    </div>
-                    <a href={ISSUE_LINK} target="_blank" rel="noreferrer"> <BtnBox>Submit Your Choice</BtnBox></a>
-                </div>
-                <RhtBanner></RhtBanner>
-            </FirstLine>
+                    <RhtBanner></RhtBanner>
+                </FirstLine>
+
+
             <SwiperBox />
 
         </div>
+        </Animation>
     </Box>
 }
