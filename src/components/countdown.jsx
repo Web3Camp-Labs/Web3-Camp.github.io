@@ -13,7 +13,7 @@ const Box = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 0;
+    padding: 50px 0;
   }
 `
 
@@ -28,7 +28,6 @@ const UlBox = styled.ul`
       display: flex;
       align-content: center;
       justify-content: center;
-      
     }
   .lft{
   display:flex;
@@ -46,8 +45,8 @@ const UlBox = styled.ul`
     align-items: flex-start;
     justify-content: center;
   }
-  .title{
-    font-size: 18px;
+  .tit{
+    font-size: 20px;
   }
   .tips{
     font-size: 14px;
@@ -73,7 +72,7 @@ export default function Countdown(){
                             <span>3243</span>+
                         </div>
                         <div className="rht">
-                            <div className="tit">Chains' Logo</div>
+                            <div className="tit">Tokens Logo</div>
                             <div className="tips">Provide</div>
                         </div>
                     </li>

@@ -10,11 +10,9 @@ const Box = styled.div`
 
   .inner{
     background: rgba(0,0,0,.5);
-    backdrop-filter: blur(1px);
     width: 100%;
     height: 100%;
-
-    padding: 40px 0;
+    padding: 50px 0;
   }
   .mainContent{
     display: flex;
