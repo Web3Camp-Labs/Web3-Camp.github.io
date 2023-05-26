@@ -16,6 +16,17 @@ const Box  = styled.div`
   position: relative;
 `
 const InnerBox = styled.div`
+  @keyframes move {
+    0% {
+      -webkit-transform: rotateX(13deg) rotateY(0deg);
+      transform: rotateX(13deg) rotateY(0deg);
+    }
+
+    100% {
+      -webkit-transform: rotateX(13deg) rotateY(360deg);
+      transform: rotateX(13deg) rotateY(360deg);
+    }
+  }
   .box {
     width: 200px;
     height: 200px;
@@ -199,16 +210,7 @@ const InnerBox = styled.div`
     left: -100px;
     top: -100px;
   }
-  @keyframes move {
-    0% {
-      -webkit-transform: rotateX(13deg) rotateY(0deg);
-      transform: rotateX(13deg) rotateY(0deg);
-    }
-    100% {
-      -webkit-transform: rotateX(13deg) rotateY(360deg);
-      transform: rotateX(13deg) rotateY(360deg);
-    }
-  }
+
 `
 export default function Animation(props){
     return <Box>
