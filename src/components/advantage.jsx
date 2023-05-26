@@ -54,8 +54,19 @@ const RhtBox = styled.div`
     border-radius: 10px;
     box-sizing: border-box;
     margin-bottom: 40px;
+       .bt10{
+         margin-bottom: 20px;
+         color: #f3801f;
+       }
        &:last-child{
          margin-bottom: 0;
+       }
+       &:hover{
+         background: #f3801f;
+         color: #fff;
+         .bt10{
+           color: #fff;
+         }
        }
   }
   dt{
@@ -67,9 +78,7 @@ const RhtBox = styled.div`
   dd{
     opacity: 0.8;
   }
-  .bt10{
-    margin-bottom: 20px;
-  }
+  
 `
 
 const BtnBox = styled.div`
@@ -92,27 +101,29 @@ export default function Advantage(){
                     </div>
                     <div className="tips">Web3Camp can provide help for beginners to better enter the Web3 industry and develop their careers.</div>
                 </div>
+                <a href="https://github.com/Web3Camp-Labs" target="_blank" rel="noreferrer">
                 <BtnBox>
                     Explore More
                 </BtnBox>
+               </a>
             </LftBox>
             <RhtBox>
                 <div className="line wow animate__animated animate__fadeInLeft" data-wow-offset="400">
                     <dl>
 
-                        <FontAwesomeIcon icon={faCode} size="2x" style={{color: "#f3801f"}} className="bt10" />
+                        <FontAwesomeIcon icon={faCode} size="2x" className="bt10" />
                         <dt>Provide learning resources</dt>
                         <dd>Web3Camp provides comprehensive learning resources, including courses, tutorials, articles, sample code, and hands-on projects</dd>
                     </dl>
                     <dl>
-                        <FontAwesomeIcon icon={faHandPeace} size="2x" style={{color: "#f3801f"}} className="bt10" />
+                        <FontAwesomeIcon icon={faHandPeace} size="2x" className="bt10" />
                         <dt>Foster community values</dt>
                         <dd>Web3Camp has a strong community culture and values, including openness, inclusiveness, collaboration, innovation, and sustainability</dd>
                     </dl>
                 </div>
                 <div className="line wow animate__animated animate__fadeInLeft" data-wow-offset="400" data-wow-delay="0.2s">
                     <dl>
-                        <FontAwesomeIcon icon={faPeopleArrows} size="2x" style={{color: "#f3801f"}} className="bt10" />
+                        <FontAwesomeIcon icon={faPeopleArrows} size="2x" className="bt10" />
                         <dt>Encourage collaboration</dt>
                         <dd>Web3Camp encourages interaction and collaboration among members, shares problems and solutions, and promotes mutual support and encouragement among members.</dd>
                     </dl>
@@ -120,12 +131,12 @@ export default function Advantage(){
                 </div>
                 <div className="line wow animate__animated animate__fadeInLeft" data-wow-offset="400" data-wow-delay="0.4s">
                     <dl>
-                        <FontAwesomeIcon icon={faComments} size="2x" style={{color: "#f3801f"}} className="bt10" />
+                        <FontAwesomeIcon icon={faComments} size="2x" className="bt10" />
                         <dt>Host events and competitions</dt>
                         <dd>Web3Camp usually hosts events and competitions such as hackathons, programming challenges, webinars, and offline meetups.</dd>
                     </dl>
                     <dl>
-                        <FontAwesomeIcon icon={faSpaceShuttle} size="2x" style={{color: "#f3801f"}} rotation={270} className="bt10" />
+                        <FontAwesomeIcon icon={faSpaceShuttle} size="2x" rotation={270} className="bt10" />
                         <dt>Help beginners get into Web3</dt>
                         <dd>Web3Camp community members can share their practical experience and career advice to help beginners get into web3</dd>
                     </dl>
