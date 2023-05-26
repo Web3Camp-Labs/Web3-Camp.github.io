@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import ListJson from "../json/list.json";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLink} from '@fortawesome/free-solid-svg-icons'
 
 const Box = styled.div`
   padding: 80px 0;
@@ -122,7 +124,9 @@ export default function Tools(){
                         <div className="innerLine">
 
                             <div className="inner">
-                                <div className="mask"></div>
+                                <div className="mask">
+                                    <FontAwesomeIcon icon={faLink} size="3x" style={{color: "#f3801f"}} />
+                                </div>
                                 <img src={item.logo} alt=""/>
                                 <div className="desc">
 

@@ -27,19 +27,77 @@ const UlBox = styled.ul`
   width: 100%;
     li{
       color: #fff;
-      width: 33.33333%;
+      width: 25%;
       display: flex;
+      align-content: center;
       justify-content: center;
+      
     }
+  .lft{
+  display:flex;
+    align-items: flex-start;
+    margin-right: 20px;
+    font-size: 18px;
+    span{
+      font-family: "Jost-SemiBold";
+      font-size: 40px;
+    }
+  }
+  .rht{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .title{
+    font-size: 18px;
+  }
+  .tips{
+    font-size: 14px;
+    opacity: 0.6;
+  }
 `
 export default function Countdown(){
     return <Box>
         <div className="inner">
             <div className="mainContent">
                 <UlBox>
-                    <li>ddd</li>
-                    <li>ddd</li>
-                    <li>ddd</li>
+                    <li>
+                        <div className="lft">
+                            <span>324</span>
+                        </div>
+                        <div className="rht">
+                            <div className="tit">DAO</div>
+                            <div className="tips">collected</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div className="lft">
+                            <span>3243</span>+
+                        </div>
+                        <div className="rht">
+                            <div className="tit">Chains' Logo</div>
+                            <div className="tips">Provide</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div className="lft">
+                            <span>3243</span>+
+                        </div>
+                        <div className="rht">
+                            <div className="tit">Chains' Faucet</div>
+                            <div className="tips">Provide</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div className="lft">
+                            <span>3243</span>+
+                        </div>
+                        <div className="rht">
+                            <div className="tit">Chains' RPC</div>
+                            <div className="tips">Provide</div>
+                        </div>
+                    </li>
                 </UlBox>
             </div>
         </div>
