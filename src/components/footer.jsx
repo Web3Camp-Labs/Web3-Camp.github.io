@@ -48,6 +48,7 @@ const RhtBox = styled.div`
 const SecondLine = styled.div`
     display: flex;
   align-items: flex-start;
+  opacity: 0.4;
   .lft{
     margin-right: 10px;
   }
