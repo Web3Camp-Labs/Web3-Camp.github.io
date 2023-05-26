@@ -7,7 +7,7 @@ import NodejsImg from "../assets/images/stack/nodejs.png";
 import ReactImg from "../assets/images/stack/react.png";
 import JavascriptImg from "../assets/images/stack/JavaScript.png";
 import CssImg from "../assets/images/stack/CSS3.png";
-import HTMLImg from "../assets/images/stack/HTML5.svg"
+import HTMLImg from "../assets/images/stack/html5.png"
 import TsImg from "../assets/images/stack/Typescript.png";
 import Metamask from "../assets/images/stack/metamask.png";
 import SassImg from "../assets/images/stack/sass.png";
