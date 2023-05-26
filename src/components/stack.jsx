@@ -49,7 +49,7 @@ export default function Stack(){
     return <Box id="tutorial">
         <div className="mainContent">
             <div className="titleBold">
-                Related tutorials
+                Related Tutorials
             </div>
             <UlBox>
                 <dl>

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import BgImg from "../assets/images/banner.png";
+import SwiperBox from "./swiperBox";
 
 const Box = styled.div`
     background: url(${BgImg}) no-repeat;
@@ -48,28 +49,10 @@ const BtnBox = styled.div`
 const RhtBanner = styled.div`
 `
 
-const AdvLine = styled.ul`
-    display: flex;
-  align-items: center;
-  margin-top: 100px;
-  li{
-    width: 32%;
-    margin-right: 2%;
-    height: 160px;
-    background: #fff;
-    box-shadow: 0 12px 30px rgba(45,56,68,.15);
-    border-radius: 10px;
-    overflow: hidden;
-    &:last-child{
-      margin-right: 0;
-    }
-    img{
-      width: 100%;
-    }
-  }
-  
-`
 export default function Banner(){
+    const ISSUE_LINK = 'https://github.com/Web3Camp-Labs/Web3Camp-Labs.github.io/issues/new?assignees=xrdavies%2Cwendychaung&labels=NEW&template=new.yml&title=%5BNEW%5D%3A+';
+
+
     return <Box>
         <div className="mainContent">
             <FirstLine>
@@ -84,15 +67,12 @@ export default function Banner(){
                     <div className="tips">
                         Sharpen your weapon and get started with Web 3.0 from here.
                     </div>
-                    <BtnBox>Submit Your Choice</BtnBox>
+                    <a href={ISSUE_LINK} target="_blank" rel="noreferrer"> <BtnBox>Submit Your Choice</BtnBox></a>
                 </div>
                 <RhtBanner></RhtBanner>
             </FirstLine>
-            <AdvLine>
-                <li></li>
-                <li></li>
-                <li></li>
-            </AdvLine>
+            <SwiperBox />
+
         </div>
     </Box>
 }
