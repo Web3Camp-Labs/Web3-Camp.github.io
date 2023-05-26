@@ -33,9 +33,10 @@ const MidBox = styled.ul`
   align-items: center;
   width: 40%;
   flex-wrap: wrap;
+  height: 100%;
     li{
       width: 33.3333333%;
-      margin-bottom: 10px;
+      margin: 10px 0;
     }
 `
 const RhtBox = styled.div`
