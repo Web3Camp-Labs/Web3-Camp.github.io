@@ -29,7 +29,7 @@ const LftBox = styled.div`
   }
   .copy{
     font-size: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
     opacity: 0.6;
   }
 `
