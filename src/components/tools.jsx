@@ -112,7 +112,7 @@ const ListUl = styled.ul`
   }
 `
 export default function Tools(){
-    return <Box>
+    return <Box id="tools">
         <div className="mainContent">
             <div className="tools">Our tools</div>
             <div className="titleBold">

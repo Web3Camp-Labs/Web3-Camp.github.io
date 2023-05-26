@@ -82,7 +82,7 @@ const BtnBox = styled.div`
   margin-bottom: 50px;
 `
 export default function Advantage(){
-    return <Box>
+    return <Box id="join">
         <div className="mainContent">
             <LftBox>
                 <div>

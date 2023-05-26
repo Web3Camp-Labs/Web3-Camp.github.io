@@ -46,7 +46,7 @@ const UlBox = styled.div`
     }
 `
 export default function Stack(){
-    return <Box>
+    return <Box id="tutorial">
         <div className="mainContent">
             <div className="titleBold">
                 Related tutorials

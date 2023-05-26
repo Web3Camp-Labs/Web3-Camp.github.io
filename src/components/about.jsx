@@ -30,7 +30,7 @@ const RhtBox = styled.div`
   }
 `
 export default function About(){
-    return <Box>
+    return <Box id="about">
         <div className="mainContent">
             <LftBox>
                 <img src={AboutImg} alt=""/>

@@ -29,21 +29,30 @@ const UlBox = styled.ul`
   margin-right: 20px;
   li{
     margin-left: 40px;
+    cursor: pointer;
   }
 `
 export default function Header(){
-    return <Box>
+
+    const toGo = (selector) =>{
+        document.querySelector(selector).scrollIntoView({
+            behavior:"smooth"
+        });
+
+    }
+
+    return <Box id="home">
         <div>
             <img src={LogoImg} alt="" className="logo" />
         </div>
 
         <RhtBox>
             <UlBox>
-                <li>About Us</li>
-                <li>Join Us</li>
-                <li>Tools</li>
-                <li>Tutorials</li>
-                <li>Other Resources</li>
+                <li onClick={()=>toGo("#about")}>About Us</li>
+                <li onClick={()=>toGo("#join")}>Join Us</li>
+                <li onClick={()=>toGo("#tools")}>Tools</li>
+                <li onClick={()=>toGo("#tutorial")}>Tutorials</li>
+                <li onClick={()=>toGo("#other")}>Other Resources</li>
             </UlBox>
             <a href="https://github.com/Web3Camp-Labs" target="_blank" rel="noreferrer"> <img src={GithubImg} alt=""/></a>
             <a href="https://twitter.com/Web3Camp" target="_blank" rel="noreferrer"><img src={TwitterImg} alt=""/></a>

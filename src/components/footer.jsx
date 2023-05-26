@@ -42,6 +42,7 @@ const MidBox = styled.ul`
     li{
       width: 33.3333333%;
       margin: 10px 0;
+      cursor: pointer;
     }
 `
 const RhtBox = styled.div`
@@ -63,6 +64,14 @@ const SecondLine = styled.div`
   }
 `
 export default function Footer(){
+
+    const toGo = (selector) =>{
+        document.querySelector(selector).scrollIntoView({
+            behavior:"smooth"
+        });
+
+    }
+
     return <Box>
         <div className="mainContent">
             <FirstLine>
@@ -74,19 +83,20 @@ export default function Footer(){
                     <div className="copy">Copyright © 2023 Web3Camp.us </div>
                 </LftBox>
                 <MidBox>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Join Us</li>
-                    <li>Tools</li>
-                    <li>Tutorials</li>
-                    <li>Other Resources</li>
+                    <li onClick={()=>toGo("#home")}>Home</li>
+                    <li onClick={()=>toGo("#about")}>About Us</li>
+                    <li onClick={()=>toGo("#join")}>Join Us</li>
+                    <li onClick={()=>toGo("#tools")}>Tools</li>
+                    <li onClick={()=>toGo("#tutorial")}>Tutorials</li>
+                    <li onClick={()=>toGo("#other")}>Other Resources</li>
                 </MidBox>
 
                 <RhtBox>
                     <div className="tit">Follow us</div>
                     <div>
-                        <FontAwesomeIcon icon={faGithub} style={{color: "#ffffff",fontSize:"24px"}}  />
-                        <FontAwesomeIcon icon={faTwitter} style={{color: "#ffffff",fontSize:"24px",marginLeft:"20px"}}  />
+
+                        <a href="https://github.com/Web3Camp-Labs" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faGithub} style={{color: "#ffffff",fontSize:"24px"}}  /></a>
+                        <a href="https://twitter.com/Web3Camp" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faTwitter} style={{color: "#ffffff",fontSize:"24px",marginLeft:"20px"}}  /></a>
                     </div>
                 </RhtBox>
             </FirstLine>

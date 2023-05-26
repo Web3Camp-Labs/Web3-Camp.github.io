@@ -43,7 +43,7 @@ const UlBox = styled.ul`
 `
 
 export default function Other(){
-    return <Box>
+    return <Box id="other">
         <div className="mainContent">
             <div className="titleBold">
               Other Resources
