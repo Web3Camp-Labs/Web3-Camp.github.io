@@ -43,7 +43,7 @@ const UlBox = styled.ul`
 `
 
 export default function Other(){
-    return <Box id="other">
+    return <Box id="other" className="wow animate__animated animate__pulse" data-wow-offset="550">
         <div className="mainContent">
             <div className="titleBold">
               Other Resources

@@ -17,6 +17,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     background: #fff;
     color: #000;
+    overflow-x: hidden;
   }
   * {
     padding: 0;

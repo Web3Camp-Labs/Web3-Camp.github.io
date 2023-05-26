@@ -84,7 +84,7 @@ const BtnBox = styled.div`
 export default function Advantage(){
     return <Box id="join">
         <div className="mainContent">
-            <LftBox>
+            <LftBox className="wow animate__animated animate__bounceInLeft" data-wow-offset="400">
                 <div>
                     <div className="titleBold">
                         Few Reasons Why People
@@ -97,7 +97,7 @@ export default function Advantage(){
                 </BtnBox>
             </LftBox>
             <RhtBox>
-                <div className="line">
+                <div className="line wow animate__animated animate__fadeInLeft" data-wow-offset="400">
                     <dl>
 
                         <FontAwesomeIcon icon={faCode} size="2x" style={{color: "#f3801f"}} className="bt10" />
@@ -110,7 +110,7 @@ export default function Advantage(){
                         <dd>Web3Camp has a strong community culture and values, including openness, inclusiveness, collaboration, innovation, and sustainability</dd>
                     </dl>
                 </div>
-                <div className="line">
+                <div className="line wow animate__animated animate__fadeInLeft" data-wow-offset="400" data-wow-delay="0.2s">
                     <dl>
                         <FontAwesomeIcon icon={faPeopleArrows} size="2x" style={{color: "#f3801f"}} className="bt10" />
                         <dt>Encourage collaboration</dt>
@@ -118,7 +118,7 @@ export default function Advantage(){
                     </dl>
 
                 </div>
-                <div className="line">
+                <div className="line wow animate__animated animate__fadeInLeft" data-wow-offset="400" data-wow-delay="0.4s">
                     <dl>
                         <FontAwesomeIcon icon={faComments} size="2x" style={{color: "#f3801f"}} className="bt10" />
                         <dt>Host events and competitions</dt>

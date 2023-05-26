@@ -46,7 +46,7 @@ const UlBox = styled.div`
     }
 `
 export default function Stack(){
-    return <Box id="tutorial">
+    return <Box id="tutorial" className="wow animate__animated animate__zoomIn" data-wow-offset="500">
         <div className="mainContent">
             <div className="titleBold">
                 Related Tutorials

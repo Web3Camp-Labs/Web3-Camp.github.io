@@ -54,7 +54,7 @@ const UlBox = styled.ul`
   }
 `
 export default function Countdown(){
-    return <Box>
+    return <Box >
         <div className="inner">
             <div className="mainContent">
                 <UlBox>

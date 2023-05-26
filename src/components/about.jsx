@@ -30,7 +30,7 @@ const RhtBox = styled.div`
   }
 `
 export default function About(){
-    return <Box id="about">
+    return <Box id="about" className="wow animate__animated animate__bounceInLeft" data-wow-offset="300">
         <div className="mainContent">
             <LftBox>
                 <img src={AboutImg} alt=""/>

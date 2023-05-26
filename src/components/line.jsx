@@ -42,7 +42,7 @@ const RhtBox = styled.div`
 export default function Line(){
     return <Box>
         <div className="inner">
-        <div className="mainContent">
+        <div className="mainContent wow animate__animated animate__backInRight" data-wow-offset="450">
 
                 <LftBox>
                     <div className="titleJoin">Join Us</div>
