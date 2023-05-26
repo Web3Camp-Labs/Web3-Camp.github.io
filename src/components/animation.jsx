@@ -39,32 +39,32 @@ const InnerBox = styled.div`
     top: 0;
   }
   .minbox li:nth-child(1) {
-    background: url(./01.jpeg) no-repeat 0 0;
+    background: url("./assets/logo/daopark.png") no-repeat 0 0;
     background-size: 100% 100%;
     -webkit-transform: translateZ(50px);
   }
   .minbox li:nth-child(2) {
-    background: url(./02.jpeg) no-repeat 0 0;
+    background: url("./assets/logo/faucet.png") no-repeat 0 0;
     background-size: 100% 100%;
     -webkit-transform: rotateX(180deg) translateZ(50px);
   }
   .minbox li:nth-child(3) {
-    background: url(./03.jpeg) no-repeat 0 0;
+    background: url("./assets/logo/multisender.png") no-repeat 0 0;
     background-size: 100% 100%;
     -webkit-transform: rotateX(-90deg) translateZ(50px);
   }
   .minbox li:nth-child(4) {
-    background: url(./04.jpeg) no-repeat 0 0;
+    background: url("./assets/logo/oneclick.png") no-repeat 0 0;
     background-size: 100% 100%;
     -webkit-transform: rotateX(90deg) translateZ(50px);
   }
   .minbox li:nth-child(5) {
-    background: url(./05.jpeg) no-repeat 0 0;
+    background: url("./assets/logo/polkadot.png") no-repeat 0 0;
     background-size: 100% 100%;
     -webkit-transform: rotateY(-90deg) translateZ(50px);
   }
   .minbox li:nth-child(6) {
-    background: url(./06.jpeg) no-repeat 0 0;
+    background: url("./assets/logo/ethers-tools.png") no-repeat 0 0;
     background-size: 100% 100%;
     -webkit-transform: rotateY(90deg) translateZ(50px);
   }
