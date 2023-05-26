@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import BgImg from "../assets/images/book-bg.png";
+import CountUp, { useCountUp } from 'react-countup';
 
 const Box = styled.div`
     background: url(${BgImg}) center;
@@ -54,13 +55,15 @@ const UlBox = styled.ul`
   }
 `
 export default function Countdown(){
+
+
     return <Box >
         <div className="inner">
             <div className="mainContent">
                 <UlBox>
                     <li>
                         <div className="lft">
-                            <span>324</span>
+                            <span><CountUp end={182} enableScrollSpy /></span>
                         </div>
                         <div className="rht">
                             <div className="tit">DAO</div>
@@ -69,7 +72,7 @@ export default function Countdown(){
                     </li>
                     <li>
                         <div className="lft">
-                            <span>3243</span>+
+                            <span> <span><CountUp end={552} enableScrollSpy /></span></span>
                         </div>
                         <div className="rht">
                             <div className="tit">Tokens Logo</div>
@@ -78,7 +81,7 @@ export default function Countdown(){
                     </li>
                     <li>
                         <div className="lft">
-                            <span>3243</span>+
+                            <span><span><CountUp end={266} enableScrollSpy /></span></span>+
                         </div>
                         <div className="rht">
                             <div className="tit">Chains' Faucet</div>
@@ -87,7 +90,7 @@ export default function Countdown(){
                     </li>
                     <li>
                         <div className="lft">
-                            <span>3243</span>+
+                            <span>    <span><CountUp end={843} enableScrollSpy /></span></span>+
                         </div>
                         <div className="rht">
                             <div className="tit">Chains' RPC</div>
