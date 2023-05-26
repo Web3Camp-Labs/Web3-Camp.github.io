@@ -11,6 +11,9 @@ import HTMLImg from "../assets/images/stack/HTML5.svg"
 import TsImg from "../assets/images/stack/Typescript.png";
 import Metamask from "../assets/images/stack/metamask.png";
 import SassImg from "../assets/images/stack/sass.png";
+import HardhatImg from "../assets/images/stack/hardhat.png";
+import GithubImg from "../assets/images/stack/action.png";
+import TheGraphImg from "../assets/images/stack/thegraph.png";
 
 const Box = styled.div`
     padding: 80px 0;
@@ -26,12 +29,11 @@ const UlBox = styled.div`
   margin-top: 60px;
   display: flex;
   align-items: stretch;
-  justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
     dl{
       text-align: center;
-      width: 16.666667%;
+      width: 20%;
       margin-bottom: 40px;
       dt{
         color: #8a8fa3;
@@ -71,6 +73,10 @@ export default function Stack(){
                     <dt>Meta mask</dt>
                 </dl>
                 <dl>
+                    <img src={HardhatImg} alt=""/>
+                    <dt>Hardhat</dt>
+                </dl>
+                <dl>
                     <img src={NodejsImg} alt=""/>
                     <dt>Nodejs</dt>
                 </dl>
@@ -97,6 +103,14 @@ export default function Stack(){
                 <dl>
                     <img src={SassImg} alt=""/>
                     <dt>Sass</dt>
+                </dl>
+                <dl>
+                    <img src={GithubImg} alt=""/>
+                    <dt>Github actions</dt>
+                </dl>
+                <dl>
+                    <img src={TheGraphImg} alt=""/>
+                    <dt>The graph</dt>
                 </dl>
             </UlBox>
         </div>
