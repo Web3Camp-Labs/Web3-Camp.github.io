@@ -40,7 +40,7 @@ const AdvLine = styled.ul`
   }
   
 `
-export default function (){
+export default function SwiperBox(){
     return <div>
         <AdvLine>
             <Swiper
