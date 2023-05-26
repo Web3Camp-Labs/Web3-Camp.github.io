@@ -6,6 +6,7 @@ import Line from "./components/line";
 import Tools from "./components/tools";
 import Countdown from "./components/countdown";
 import Other from "./components/other";
+import Advantage from "./components/advantage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Banner />
       <About />
       <Line />
+        <Advantage />
       <Tools />
       <Countdown />
       <Other />
