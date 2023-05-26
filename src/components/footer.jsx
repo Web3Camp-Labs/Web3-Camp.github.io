@@ -27,6 +27,11 @@ const LftBox = styled.div`
   .desc{
     opacity: 0.8;
   }
+  .copy{
+    font-size: 10px;
+    margin-top: 20px;
+    opacity: 0.6;
+  }
 `
 const MidBox = styled.ul`
   display: flex;
@@ -62,8 +67,11 @@ export default function Footer(){
         <div className="mainContent">
             <FirstLine>
                 <LftBox>
-                    <img src={WhiteImg} alt=""/>
-                    <div className="desc">Our mission is to provide a platform for developers to learn about the blockchain and to provide a community of developers.</div>
+                    <div>
+                        <img src={WhiteImg} alt=""/>
+                        <div className="desc">Our mission is to provide a platform for developers to learn about the blockchain and to provide a community of developers.</div>
+                    </div>
+                    <div className="copy">Copyright © 2023 Web3Camp </div>
                 </LftBox>
                 <MidBox>
                     <li>Home</li>
