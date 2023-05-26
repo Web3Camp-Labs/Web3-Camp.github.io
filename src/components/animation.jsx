@@ -16,17 +16,7 @@ const Box  = styled.div`
   position: relative;
 `
 const InnerBox = styled.div`
-  @keyframes moveTop {
-    from {
-      -webkit-transform: rotateX(13deg) rotateY(0deg);
-      transform: rotateX(13deg) rotateY(0deg);
-    }
 
-    to {
-      -webkit-transform: rotateX(13deg) rotateY(360deg);
-      transform: rotateX(13deg) rotateY(360deg);
-    }
-  }
   .box {
     width: 200px;
     height: 200px;
