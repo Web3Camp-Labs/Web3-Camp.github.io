@@ -103,7 +103,7 @@ export default function Books(){
                         <div className="projects-thumb">
                             <div className="projects-title">{item.title}</div>
 
-                            <a href="https://web3camp.us/" className="popup-image" rel="noreferrer">
+                            <a href={item.url} className="popup-image" target="_blank" rel="noreferrer">
                                 <img src={require(`../assets/images/books/${item.id}.jpg`)}
                                      className="projects-image img-fluid" alt="" />
                             </a>
@@ -112,7 +112,7 @@ export default function Books(){
                 }
             </UlBox>
             <div>
-                <ButtonBox>Explore More</ButtonBox>
+                {/*<ButtonBox>Explore More</ButtonBox>*/}
             </div>
         </div>
     </Box>
