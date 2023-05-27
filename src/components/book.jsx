@@ -69,16 +69,16 @@ const UlBox = styled.ul`
   
 `
 
-const ButtonBox = styled.div`
-    margin-top: 60px;
-
-  background: #f3801f;
-  display: inline-block;
-  padding: 16px 48px;
-  color: #fff;
-  border-radius: 10px;
-  margin-bottom: 50px;
-`
+// const ButtonBox = styled.div`
+//     margin-top: 60px;
+//
+//   background: #f3801f;
+//   display: inline-block;
+//   padding: 16px 48px;
+//   color: #fff;
+//   border-radius: 10px;
+//   margin-bottom: 50px;
+// `
 export default function Books(){
 
     const [list,setList] = useState([]);
