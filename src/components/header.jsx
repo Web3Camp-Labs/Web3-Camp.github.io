@@ -52,7 +52,6 @@ export default function Header(){
                 <li onClick={()=>toGo("#join")}>Join Us</li>
                 <li onClick={()=>toGo("#tools")}>Tools</li>
                 <li onClick={()=>toGo("#tutorial")}>Related Knowledge</li>
-                <li onClick={()=>toGo("#other")}>Other Resources</li>
             </UlBox>
             <a href="https://github.com/Web3Camp-Labs" target="_blank" rel="noreferrer"> <img src={GithubImg} alt=""/></a>
             <a href="https://twitter.com/Web3Camp" target="_blank" rel="noreferrer"><img src={TwitterImg} alt=""/></a>
