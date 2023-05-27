@@ -9,6 +9,7 @@ import Other from "./components/other";
 import Advantage from "./components/advantage";
 import Stack from "./components/stack";
 import Footer from "./components/footer";
+import Books from "./components/book";
 import { WOW } from 'wowjs';
 import "animate.css";
 import {useEffect} from "react";
@@ -26,6 +27,7 @@ function App() {
         <Advantage />
         <Tools />
         <Line />
+        <Books />
         <Stack />
         <Other />
         <Footer />

@@ -87,8 +87,9 @@ export default function Footer(){
                     <li onClick={()=>toGo("#about")}>About Us</li>
                     <li onClick={()=>toGo("#join")}>Join Us</li>
                     <li onClick={()=>toGo("#tools")}>Tools</li>
+                    <li onClick={()=>toGo("#books")}>Recommended</li>
                     <li onClick={()=>toGo("#tutorial")}>Related Knowledge</li>
-                    <li onClick={()=>toGo("#other")}>Other Resources</li>
+
                 </MidBox>
 
                 <RhtBox>
