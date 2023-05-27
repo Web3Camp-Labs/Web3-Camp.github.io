@@ -89,16 +89,16 @@ export default function Books(){
 
     },[])
 
-    return <Box id="books">
+    return <Box id="books" className="wow animate__animated animate__bounceInLeft" data-wow-offset="500">
         <div className="mainContent">
-            <div className="wow animate__animated animate__bounceInLeft" data-wow-offset="500">
+            <div>
                 <div className="titleBold">
                     Recommended
                 </div>
             </div>
             <UlBox>
                 {
-                    list.map((item,index)=>( <li key={index} className="line wow animate__animated animate__fadeInLeft" data-wow-offset="500" data-wow-delay="0.2s">
+                    list.map((item,index)=>( <li key={index} >
 
                         <div className="projects-thumb">
                             <div className="projects-title">{item.title}</div>
