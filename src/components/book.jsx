@@ -87,23 +87,23 @@ export default function Books(){
         let arr = JsonList.items.splice(0,5);
         setList(arr)
 
-    },[JsonList])
+    },[])
 
     return <Box id="books">
         <div className="mainContent">
-            <div>
+            <div className="wow animate__animated animate__bounceInLeft" data-wow-offset="500">
                 <div className="titleBold">
                     Recommended
                 </div>
             </div>
             <UlBox>
                 {
-                    list.map((item,index)=>( <li key={index}>
+                    list.map((item,index)=>( <li key={index} className="line wow animate__animated animate__fadeInLeft" data-wow-offset="500" data-wow-delay="0.2s">
 
                         <div className="projects-thumb">
                             <div className="projects-title">{item.title}</div>
 
-                            <a href="#" className="popup-image">
+                            <a href="https://web3camp.us/" className="popup-image" rel="noreferrer">
                                 <img src={require(`../assets/images/books/${item.id}.jpg`)}
                                      className="projects-image img-fluid" alt="" />
                             </a>
