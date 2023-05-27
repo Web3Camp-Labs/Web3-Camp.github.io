@@ -132,7 +132,7 @@ export default function Stack(){
                     </a>
                 </dl>
                 <dl>
-                    <a href="https://docs.github.com/zh/actions" target="_blank" rel="noreferrer">
+                    <a href="https://docs.github.com/en/actions" target="_blank" rel="noreferrer">
                     <img src={GithubImg} alt=""/>
                     <dt>Github actions</dt>
                     </a>
