@@ -60,7 +60,6 @@ export default function Other(){
                         </a>
                     </li>))
                 }
-
             </UlBox>
         </div>
     </Box>

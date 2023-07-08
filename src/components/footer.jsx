@@ -2,6 +2,7 @@ import styled from "styled-components";
 import WhiteImg from "../assets/images/whiteLogo.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub,faTwitter } from '@fortawesome/free-brands-svg-icons';
+import {useNavigate} from "react-router-dom";
 
 const Box = styled.div`
   background: #262626;
@@ -64,11 +65,12 @@ const SecondLine = styled.div`
   }
 `
 export default function Footer(){
-
+    const navigate = useNavigate();
     const toGo = (selector) =>{
-        document.querySelector(selector).scrollIntoView({
-            behavior:"smooth"
-        });
+        // document.querySelector(selector).scrollIntoView({
+        //     behavior:"smooth"
+        // });
+        navigate(selector)
 
     }
 
@@ -83,12 +85,12 @@ export default function Footer(){
                     <div className="copy">Copyright © 2023 Web3Camp.us </div>
                 </LftBox>
                 <MidBox>
-                    <li onClick={()=>toGo("#home")}>Home</li>
-                    <li onClick={()=>toGo("#about")}>About Us</li>
-                    <li onClick={()=>toGo("#join")}>Join Us</li>
-                    <li onClick={()=>toGo("#tools")}>Tools</li>
-                    <li onClick={()=>toGo("#books")}>Recommended</li>
-                    <li onClick={()=>toGo("#tutorial")}>Related Knowledge</li>
+                    <li onClick={()=>toGo("/")}>Home</li>
+                    {/*<li onClick={()=>toGo("#about")}>About Us</li>*/}
+                    {/*<li onClick={()=>toGo("#join")}>Join Us</li>*/}
+                    <li onClick={()=>toGo("/tools")}>Tools</li>
+                    {/*<li onClick={()=>toGo("#books")}>Recommended</li>*/}
+                    <li onClick={()=>toGo("/tutorial")}>Tutorial</li>
 
                 </MidBox>
 

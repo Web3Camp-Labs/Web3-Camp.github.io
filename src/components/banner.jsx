@@ -3,6 +3,7 @@ import BgImg from "../assets/images/banner.png";
 import SwiperBox from "./swiperBox";
 import Animation from "./animation";
 
+
 const Box = styled.div`
     background: url(${BgImg}) no-repeat;
   background-size: 100%;
@@ -71,12 +72,9 @@ export default function Banner(){
                         </div>
                         <a href={ISSUE_LINK} target="_blank" rel="noreferrer"> <BtnBox>Submit Your Choice</BtnBox></a>
                     </div>
-                    <RhtBanner></RhtBanner>
+                    <RhtBanner />
                 </FirstLine>
-
-
             <SwiperBox />
-
         </div>
         </Animation>
     </Box>

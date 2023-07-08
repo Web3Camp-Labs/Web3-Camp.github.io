@@ -2,6 +2,7 @@ import styled from "styled-components";
 import LogoImg from "../assets/images/web3logo.png";
 import GithubImg from "../assets/images/github.png";
 import TwitterImg from "../assets/images/Twitter.png";
+import {useNavigate} from "react-router-dom";
 
 const Box = styled.div`
     display: flex;
@@ -33,11 +34,12 @@ const UlBox = styled.ul`
   }
 `
 export default function Header(){
-
+    const navigate = useNavigate();
     const toGo = (selector) =>{
-        document.querySelector(selector).scrollIntoView({
-            behavior:"smooth"
-        });
+        // document.querySelector(selector).scrollIntoView({
+        //     behavior:"smooth"
+        // });
+        navigate(selector)
 
     }
 
@@ -48,11 +50,11 @@ export default function Header(){
 
         <RhtBox>
             <UlBox>
-                <li onClick={()=>toGo("#about")}>About Us</li>
-                <li onClick={()=>toGo("#join")}>Join Us</li>
-                <li onClick={()=>toGo("#tools")}>Tools</li>
-                <li onClick={()=>toGo("#books")}>Recommended</li>
-                <li onClick={()=>toGo("#tutorial")}>Related Knowledge</li>
+                <li onClick={()=>toGo("/Home")}>Home</li>
+                {/*<li onClick={()=>toGo("/books")}>Books</li>*/}
+                <li onClick={()=>toGo("/tools")}>Tools</li>
+                {/*<li onClick={()=>toGo("#books")}>Recommended</li>*/}
+                <li onClick={()=>toGo("/tutorial")}>Tutorial</li>
             </UlBox>
             <a href="https://github.com/Web3Camp-Labs" target="_blank" rel="noreferrer"> <img src={GithubImg} alt=""/></a>
             <a href="https://twitter.com/Web3Camp" target="_blank" rel="noreferrer"><img src={TwitterImg} alt=""/></a>

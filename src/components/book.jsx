@@ -17,8 +17,9 @@ const UlBox = styled.ul`
   display: flex;
   align-items: stretch;
   justify-content: space-between;
+  flex-wrap: wrap;
     li{
-      width:18%;
+      width:23%;
       background: #fff;
       box-shadow: 0 2px 10px rgba(45,56,68,.1);
       border-radius: 10px;
@@ -27,7 +28,7 @@ const UlBox = styled.ul`
       position: relative;
       overflow: hidden;
       padding: 40px;
-      
+      margin-bottom: 40px;
       &:hover {
         border-color: #f0f;
       }
@@ -46,7 +47,7 @@ const UlBox = styled.ul`
 
   .projects-image {
     display: block;
-    width: 150px;
+    width: 200px;
     transform: rotate(10deg) translateY(80px);
     transition: all ease 0.5s;
     box-shadow:  0 5px 5px rgba(0,0,0,0.3);
@@ -79,17 +80,16 @@ const UlBox = styled.ul`
 //   border-radius: 10px;
 //   margin-bottom: 50px;
 // `
-export default function Books(){
+export default function BooksCom(){
 
     const [list,setList] = useState([]);
 
     useEffect(()=>{
-        let arr = JsonList.items.splice(0,5);
-        setList(arr)
+        setList(JsonList.items)
 
     },[])
 
-    return <Box id="books" className="wow animate__animated animate__bounceInLeft" data-wow-offset="500">
+    return <Box id="books" className="wow animate__animated animate__pulse" data-wow-offset="500">
         <div className="mainContent">
             <div>
                 <div className="titleBold">

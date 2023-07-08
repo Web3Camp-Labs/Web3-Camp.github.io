@@ -132,7 +132,7 @@ const InnerBox = styled.div`
     position: absolute;
     left: 0;
     top: 0;
-    opacity: 0.2;
+    opacity: 0.4;
     -webkit-transition: all 1s ease;
   }
   .maxbox li:nth-child(1) {

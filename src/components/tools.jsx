@@ -111,8 +111,8 @@ const ListUl = styled.ul`
     }
   }
 `
-export default function Tools(){
-    return <Box id="tools" className="wow animate__animated animate__zoomIn" data-wow-offset="450">
+export default function ToolsCom(){
+    return <Box id="tools" className="wow animate__animated animate__bounceInLeft" data-wow-offset="450">
         <div className="mainContent">
             <div className="tools">Our tools</div>
             <div className="titleBold">
