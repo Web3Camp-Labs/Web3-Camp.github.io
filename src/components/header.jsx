@@ -53,8 +53,9 @@ export default function Header(){
                 <li onClick={()=>toGo("/Home")}>Home</li>
                 {/*<li onClick={()=>toGo("/books")}>Books</li>*/}
                 <li onClick={()=>toGo("/tools")}>Tools</li>
-                {/*<li onClick={()=>toGo("#books")}>Recommended</li>*/}
+
                 <li onClick={()=>toGo("/tutorial")}>Tutorial</li>
+                <li onClick={()=>toGo("/tasks")}>Tasks</li>
             </UlBox>
             <a href="https://github.com/Web3Camp-Labs" target="_blank" rel="noreferrer"> <img src={GithubImg} alt=""/></a>
             <a href="https://twitter.com/Web3Camp" target="_blank" rel="noreferrer"><img src={TwitterImg} alt=""/></a>

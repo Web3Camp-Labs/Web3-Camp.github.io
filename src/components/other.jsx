@@ -2,7 +2,7 @@ import styled from "styled-components";
 import ResourceList from "../json/resourceList.json";
 
 const Box = styled.div`
-  padding: 80px 0 150px;
+  padding: 60px 0 150px;
   .mainContent{
     display: flex;
     flex-direction: column;
@@ -24,6 +24,7 @@ const UlBox = styled.ul`
     box-sizing: border-box;
     padding: 40px;
     border-radius: 10px;
+    background: #fff;
   }
   .title{
     font-family: "Jost-SemiBold";

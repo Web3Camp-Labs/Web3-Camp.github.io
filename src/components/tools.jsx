@@ -17,6 +17,7 @@ const Box = styled.div`
     border-radius: 5px;
     border: 1px solid #eee;
     color: #f3801f;
+    background: #fff;
     //color: #8a8fa3;
     margin-bottom: 10px;
   }
@@ -75,6 +76,7 @@ const ListUl = styled.ul`
       margin:0 20px;
       box-sizing: border-box;
       padding: 5px 20px;
+      background: #fff;
     }
   
     .inner{
@@ -96,6 +98,8 @@ const ListUl = styled.ul`
       font-weight: bold;
       font-size: 18px;
       margin-bottom: 10px;
+      width: 100%;
+      text-align: center;
     }
     img{
       width: 30%;
@@ -130,7 +134,6 @@ export default function ToolsCom(){
                                 </div>
                                 <img src={item.logo} alt=""/>
                                 <div className="desc">
-
                                     {item.description}
                                 </div>
                             </div>

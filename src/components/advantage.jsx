@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode,faPeopleArrows,faSpaceShuttle,faHandPeace,faComments } from '@fortawesome/free-solid-svg-icons'
 
 const Box = styled.div`
-
+background: #f8f8f8;
   padding: 80px 0;
   .mainContent{
     display: flex;
@@ -48,7 +48,9 @@ const RhtBox = styled.div`
     align-items: center;
   }
      dl{
-    border: 1px solid #eee;
+    //border: 1px solid #eee;
+       background: #fff;
+       box-shadow: 0 5px 10px rgba(0,0,0,0.1);
     width: 100%;
     padding: 30px;
     border-radius: 10px;

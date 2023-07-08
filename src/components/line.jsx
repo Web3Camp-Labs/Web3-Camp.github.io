@@ -5,12 +5,13 @@ import EarthImg from "../assets/images/btmEarth.png";
 const Box = styled.div`
   color: #000;
   box-sizing: border-box;
-  margin-bottom: 60px;
+  padding-bottom: 60px;
+  background: #f8f8f8;
   .mainContent{
     background:url(${BgImg}) no-repeat right center;
     background-size: 100%;
     border-radius: 20px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
     overflow: hidden;
   }
   .inner{
