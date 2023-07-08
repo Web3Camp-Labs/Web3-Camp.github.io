@@ -61,7 +61,7 @@ const UlBox = styled.div`
     }
     &:nth-child(3n){
       .symbol{
-        background: url(${Bg6}) center;
+        background:#fff url(${Bg6}) center;
         background-size:  50px;
         background-repeat: no-repeat;
       }
