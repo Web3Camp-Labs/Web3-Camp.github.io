@@ -69,8 +69,8 @@
   {
     "href": "https://web3camp.us/batch-query/",
     "logo": "/assets/images/query.png",
-    "name": "Query",
-    "description": "Batch query native/ERC20 token amount ,import/export csv file."
+    "name": "Query/Transfer",
+    "description": "Batch query/transfer native/ERC20 token amount ,import/export csv file."
   },
   {
     "href": "https://web3camp.us/Polkadot-Wallet-Generator/",
