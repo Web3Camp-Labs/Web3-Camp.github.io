@@ -105,7 +105,7 @@ export default function TaskList(){
     return <Box id="tutorial" className="wow animate__animated animate__bounceInLeft" data-wow-offset="500">
         <div className="mainContent">
             <div className="titleBold">
-                Task
+                Code Challenges
             </div>
             <UlBox>
                 {
@@ -115,10 +115,6 @@ export default function TaskList(){
                             <dl>
                                 <dt>Required</dt>
                                 <dd>None</dd>
-                            </dl>
-                            <dl>
-                                <dt>Deadline</dt>
-                                <dd>2023/08/31</dd>
                             </dl>
                             <dl>
                                 <dt>Description</dt>

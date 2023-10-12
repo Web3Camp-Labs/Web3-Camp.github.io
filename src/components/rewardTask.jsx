@@ -105,7 +105,7 @@ export default function Tasks(){
     return <Box id="tutorial" className="wow animate__animated animate__bounceInLeft" data-wow-offset="500">
         <div className="mainContent">
             <div className="titleBold">
-                Reward Task
+                Reward Tasks
             </div>
             <UlBox>
                 {
