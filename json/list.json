@@ -36,6 +36,12 @@
     "description": "Online web3 tools using ethers.js"
   },
   {
+    "href": "https://web3camp.us/Turbo-deploy/",
+    "logo": "/assets/images/turbo-deploy.png",
+    "name": "Turbo Deploy",
+    "description": "Easily deploy Smart Contract for an ERC20 Token on Ethereum Network.No login. No setup. No coding required."
+  },
+  {
     "href": "https://web3camp.us/web3pay/",
     "logo": "/assets/images/web3pay-logo.png",
     "name": "Web3pay",
