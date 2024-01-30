@@ -60,7 +60,7 @@ export default function Layout<FC>({ children }: LayoutProps) {
 
     <Container>
       <Footer>
-        <div className="lft">&copy; 2022 Web3Camp.us</div>
+        <div className="lft">&copy; 2024 Web3Camp.us</div>
         <div>
           <a href="https://github.com/Web3Camp-Labs/graphic-assets" target="_blank" rel="noreferrer">Design Resources</a>
           <a href="https://github.com/Web3Camp-Labs" target="_blank" rel="noreferrer"><img src="/assets/images/github.png" alt="" /></a>
@@ -68,10 +68,10 @@ export default function Layout<FC>({ children }: LayoutProps) {
         </div>
       </Footer>
       <LinkBox>
-        <div>Friends links:</div>
+        <div>Links:</div>
         <div className="rht">
-          <a href="https://rebase.network/ " target="_blank" rel="noreferrer">Rebase.network</a>
-          <a href="https://xdag.io/" target="_blank" rel="noreferrer">Xdag.io</a>
+          <a href="https://rebase.network/ " target="_blank" rel="noreferrer">Rebase Community</a>
+          <a href="https://xdag.io/" target="_blank" rel="noreferrer">XDAG</a>
           <a href="https://learnblockchain.cn/" target="_blank" rel="noreferrer">登链社区</a>
         </div>
       </LinkBox>

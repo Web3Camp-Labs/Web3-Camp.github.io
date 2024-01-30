@@ -141,7 +141,7 @@ export default function List(){
         </ContentBox>
         <Container>
             <Footer>
-                <div className="lft">&copy; 2022 Web3Camp.us</div>
+                <div className="lft">&copy; 2024 Web3Camp Labs</div>
                 <div>
                     <a href="https://github.com/Web3Camp-Labs" target="_blank" rel="noreferrer"><img src="/assets/images/github.png" alt=""/></a>
                 </div>

@@ -5,7 +5,7 @@ export default function HeaderTop() {
     return <div className="header">
         <Container>
             <Row>
-                <Col className="headerTxt" xs={12}>Web3 Camp</Col>
+                <Col className="headerTxt" xs={12}>Web3Camp</Col>
             </Row>
         </Container>
     </div>
