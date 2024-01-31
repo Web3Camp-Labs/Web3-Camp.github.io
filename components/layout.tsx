@@ -62,19 +62,24 @@ export default function Layout<FC>({ children }: LayoutProps) {
       <Footer>
         <div className="lft">&copy; 2024 Web3Camp.us</div>
         <div>
-          <a href="https://github.com/Web3Camp-Labs/graphic-assets" target="_blank" rel="noreferrer">Design Resources</a>
+          <a href="https://rebase.network/ " target="_blank" rel="noreferrer">RebaseCommunity</a>
+          <a href="https://xdag.io/" target="_blank" rel="noreferrer">XDAG</a>
+          <a href="https://learnblockchain.cn/" target="_blank" rel="noreferrer">登链社区</a>
+        </div>
+        <div>
+          <a href="https://github.com/Web3Camp-Labs/graphic-assets" target="_blank" rel="noreferrer">Brand Assets</a>
           <a href="https://github.com/Web3Camp-Labs" target="_blank" rel="noreferrer"><img src="/assets/images/github.png" alt="" /></a>
           <a href="https://twitter.com/Web3Camp" target="_blank" rel="noreferrer"><img src="/assets/images/Twitter.png" alt="" /></a>
         </div>
       </Footer>
-      <LinkBox>
+      {/* <LinkBox>
         <div>Links:</div>
         <div className="rht">
           <a href="https://rebase.network/ " target="_blank" rel="noreferrer">Rebase Community</a>
           <a href="https://xdag.io/" target="_blank" rel="noreferrer">XDAG</a>
           <a href="https://learnblockchain.cn/" target="_blank" rel="noreferrer">登链社区</a>
         </div>
-      </LinkBox>
+      </LinkBox> */}
     </Container>
 
 
