@@ -18,10 +18,10 @@
     "description": "Verify and Source NFT Metadata"
   },
   {
-    "href": "https://web3camp.us/oneclick-dapp/",
+    "href": "https://web3camp.us/quick-dapp/",
     "logo": "/assets/images/logos/oneclick.png",
-    "name": "OneClick dApp",
-    "description": "OneClick dApp is a tool for smart contract developers to interactive with any smart contracts easily and quickly with one click!"
+    "name": "Quick dApp",
+    "description": "Quick dApp is a tool for smart contract developers to interactive with any smart contracts easily and quickly with one click!"
   },
   {
     "href": "https://github.com/Web3Camp-Labs/hardhat-metamask-connector",
