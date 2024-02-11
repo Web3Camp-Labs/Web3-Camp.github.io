@@ -30,6 +30,12 @@
     "description": "Use browser wallet in hardhat scripts."
   },
   {
+    "href": "https://web3camp.us/inscribe/",
+    "logo": "/assets/images/logos/inscribe.png",
+    "name": "Inscribe",
+    "description": "Quickly generate BRC20 inscription."
+  },
+  {
     "href": "https://web3camp.us/Polkadot-Wallet-Generator/",
     "logo": "/assets/images/logos/polkadot.png",
     "name": "Polkadot Wallet Generator",
