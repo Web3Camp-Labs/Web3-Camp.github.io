@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   // swcMinify: true,
-  experimental: {
+  compiler: {
     // ssr and displayName are configured by default
     styledComponents: true,
 

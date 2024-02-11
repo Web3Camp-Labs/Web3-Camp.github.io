@@ -15,7 +15,7 @@ export type Page<P = {}> = NextPage<P> & {
 }
 
 type IAppProps = AppProps & {
-  Component: Page
+  Component: any
 }
 
 function MyApp({ Component, pageProps }: IAppProps) {

@@ -7,7 +7,7 @@ import ListJson from '../public/json/list.json';
 import RescourceList from "../public/json/resourceList.json";
 import Link from "next/link";
 
-const CardBox = styled(Card)`
+const CardBox = styled(Card as any)`
   border:0;
   //box-shadow: 0 0 5px #eee;
   box-shadow: 0px 20px 40px 0px #F7F7F7;
@@ -71,7 +71,7 @@ const CardBox = styled(Card)`
     }
   }
 `
-const ColBox = styled(Col)`
+const ColBox = styled(Col as any)`
   display: flex;
   align-content: stretch;
   a{
@@ -84,7 +84,7 @@ const MainBox = styled.div`
   background-size: 1440px ;
   padding-top: 30px;
 `
-const BannerBox = styled(Container)`
+const BannerBox = styled(Container as any)`
   .mainTitle{
     font-family: "AdobeGurmukhi-Bold";
     font-size: 80px;
@@ -139,7 +139,7 @@ const ResourceBox = styled.div`
     margin-top: 60px;
     padding: 40px 0 160px;
 `
-const ReBox = styled(Col)`
+const ReBox = styled(Col as any)`
   margin-bottom: 30px;
   .hoverBtn{
     visibility: hidden;
@@ -192,7 +192,7 @@ const ReBox = styled(Col)`
   }
 
 `
-const ReCard = styled(Card)`
+const ReCard = styled(Card as any)`
   background: #FAFBFC;
   box-shadow: 0 20px 40px 0 #F7F7F7;
   border-radius: 20px;

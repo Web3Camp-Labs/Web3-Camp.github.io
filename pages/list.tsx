@@ -39,7 +39,7 @@ const LogoBox = styled.div`
     }
 `
 
-const CardBox = styled(Card)`
+const CardBox = styled(Card as any)`
   border:0;
   //box-shadow: 0 0 5px #eee;
   box-shadow: 0px 20px 40px 0px #F7F7F7;
