@@ -24,6 +24,12 @@
     "description": "Quick dApp is a tool for smart contract developers to interactive with any smart contracts easily and quickly with one click!"
   },
   {
+    "href": "https://github.com/Web3Camp-Labs/Solana-NFT-Rreact",
+    "logo": "/assets/images/logos/solana-nft.png",
+    "name": "Solana NFT",
+    "description": "Issuing NFTs on the Solana blockchain"
+  },
+  {
     "href": "https://github.com/Web3Camp-Labs/hardhat-metamask-connector",
     "logo": "/assets/images/logos/metamask-connector-logo.png",
     "name": "Hardhat Wallet Connector",
